@@ -19,11 +19,11 @@
 - [x] `config/__init__.py` - Package exports
 
 ### 4. Parsers Module
-- [ ] `parsers/base_parser.py` - Abstract parser interface
-- [ ] `parsers/grounding_parser.py` - Parse <|ref|><|det|> format
-- [ ] `parsers/markdown_parser.py` - Parse markdown output
-- [ ] `parsers/parser_registry.py` - Auto-select parser
-- [ ] `parsers/__init__.py` - Package exports
+- [x] `parsers/base_parser.py` - Abstract parser interface
+- [x] `parsers/grounding_parser.py` - Parse <|ref|><|det|> format
+- [x] `parsers/markdown_parser.py` - Parse markdown output
+- [x] `parsers/parser_registry.py` - Auto-select parser
+- [x] `parsers/__init__.py` - Package exports
 
 ### 5. Processors Module
 - [ ] `processors/image_processor.py` - Image preprocessing
