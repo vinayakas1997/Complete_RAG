@@ -37,8 +37,8 @@
 - [x] `extractors/__init__.py` - Package exports
 
 ### 7. Visualizers Module
-- [ ] `visualizers/bbox_visualizer.py` - Draw bounding boxes
-- [ ] `visualizers/__init__.py` - Package exports
+- [x] `visualizers/bbox_visualizer.py` - Draw bounding boxes
+- [x] `visualizers/__init__.py` - Package exports
 
 ### 8. Storage Module
 - [ ] `storage/metadata_handler.py` - JSON metadata
