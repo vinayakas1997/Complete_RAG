@@ -41,10 +41,10 @@
 - [x] `visualizers/__init__.py` - Package exports
 
 ### 8. Storage Module
-- [ ] `storage/metadata_handler.py` - JSON metadata
-- [ ] `storage/output_manager.py` - File organization
-- [ ] `storage/directory_builder.py` - Smart folder creation
-- [ ] `storage/__init__.py` - Package exports
+<!-- - [ ] `storage/metadata_handler.py` - JSON metadata -->
+- [x] `storage/output_manager.py` - File organization
+- [x] `storage/directory_builder.py` - Smart folder creation
+- [x] `storage/__init__.py` - Package exports
 
 ### 9. Main Orchestrator
 - [ ] `main.py` - DeepSeekOCR main class
