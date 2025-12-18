@@ -235,7 +235,12 @@ class PDFProcessor:
             page_range=(page_number, page_number)
         )
         
-        return images[0] if images else None
+        ## code rabbit ---
+        if not images: 
+            raise ValueError(f"Failed to extract page {page_number} from PDF")
+        return images[0]
+        ## EOF code rabbit
+        # return images[0] if images else None
     
     def get_pdf_info(self, pdf_path: str) -> dict:
         """

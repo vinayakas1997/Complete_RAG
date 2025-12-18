@@ -66,15 +66,22 @@ class ImageProcessor:
         # Apply processing
         img = self._preprocess(img)
         
-        # Determine output path
-        if output_path is None:
-            output_path = image_path
-        else:
-            output_path = Path(output_path)
-            output_path.parent.mkdir(parents=True, exist_ok=True)
-        
-        # Save processed image
-        img.save(output_path, format='PNG')
+
+        ## code rabbit 
+        with Image.open(image_path) as img:
+            #apply processing
+            processed_img = self._preprocess(img) 
+
+            # Determine output path
+            if output_path is None:
+                output_path = image_path
+            else:
+                output_path = Path(output_path)
+                output_path.parent.mkdir(parents=True, exist_ok=True)
+
+            processed_img.save(output_path, format='PNG')
+        # # Save processed image
+        # img.save(output_path, format='PNG')
         
         return str(output_path)
     
