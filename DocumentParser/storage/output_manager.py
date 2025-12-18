@@ -8,8 +8,8 @@ from pathlib import Path
 from typing import Optional, Dict, Any
 import json
 
-from config import OutputConfig
-from extractors.base_extractor import ExtractionResult
+from ..config import OutputConfig
+from ..extractors.base_extractor import ExtractionResult
 
 
 class OutputManager:

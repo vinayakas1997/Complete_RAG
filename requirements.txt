@@ -1,23 +1,22 @@
 # Core dependencies
-ollama>=0.6.0
+ollama
 
 # Image processing
-Pillow>=12.0.0
-opencv-python>=4.12.0
+Pillow
+opencv-python
 
 # PDF processing
-PyMuPDF>=1.26.7
-pdf2image>=1.17.0
+PyMuPDF
+pdf2image
 
 # Data handling
-numpy>=2.3.5
-pandas>=2.3.3
+numpy
+pandas
 
 # Network and utilities
-requests>=2.32.5
+requests
 
-# store management 
-storage>=0.0.4
+
 # Optional: For better fonts in visualization
 # pillow-fonts>=1.0.0
 

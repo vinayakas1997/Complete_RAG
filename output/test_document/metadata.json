@@ -1,0 +1,9 @@
+{
+  "input_file": "C:\\Users\\106761\\AppData\\Local\\Temp\\ocr_test_eus1c7of\\test_document.png",
+  "page_count": 1,
+  "total_processing_time": 25.648163318634033,
+  "successful_pages": 1,
+  "total_elements": 3,
+  "model_used": "ollama_extractor",
+  "timestamp": "2025-12-18 14:39:53"
+}

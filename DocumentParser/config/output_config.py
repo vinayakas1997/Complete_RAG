@@ -50,6 +50,10 @@ class OutputConfig:
     # Metadata
     save_metadata: bool = True       # Save extraction metadata
     metadata_filename: str = "metadata.json"
+
+    # ========== ADD THIS FIELD ==========
+    create_comparison: bool = True  # Create side-by-side comparison images
+    # ====================================
     
     # Cleanup
     cleanup_intermediates: bool = False  # Remove temporary files

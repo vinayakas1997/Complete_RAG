@@ -1,0 +1,129 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 7,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "title",
+      "bbox": [
+        1593,
+        374,
+        2136,
+        449
+      ],
+      "content": "# Data Collection : Tables",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[425, 100, 570, 120]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "bbox": [
+        168,
+        506,
+        1117,
+        573
+      ],
+      "content": "(a) Each figure or table has a title and an informative caption.",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[45, 135, 298, 153]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "bbox": [
+        168,
+        614,
+        2129,
+        686
+      ],
+      "content": "(b) Each figure or table is self-sufficient and includes explanations of numbers used, replicates, units of measurement, labels, etc.",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[45, 164, 568, 183]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        168,
+        723,
+        3509,
+        862
+      ],
+      "content": "your paper!)",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[45, 193, 936, 230]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "sub_title",
+      "bbox": [
+        168,
+        922,
+        374,
+        993
+      ],
+      "content": "## Example #1",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[45, 246, 100, 265]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "image",
+      "bbox": [
+        1289,
+        1019,
+        2451,
+        1986
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 16,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[344, 272, 654, 530]]<|/det|>  "
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        1593,
+        2080,
+        1930,
+        2133
+      ],
+      "content": "Slicher",
+      "confidence": null,
+      "metadata": {
+        "line_number": 18,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[425, 555, 515, 569]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 7,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 28.779834032058716,
+    "prompt_used": "<|grounding|>Convert the document to markdown."
+  }
+}

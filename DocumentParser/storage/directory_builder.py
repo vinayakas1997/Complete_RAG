@@ -9,8 +9,8 @@ from typing import Optional
 import uuid
 import datetime
 
-from config import OutputConfig
-from utils import get_file_stem, sanitize_filename, generate_folder_name, ensure_directory
+from ..config import OutputConfig
+from ..utils import get_file_stem, sanitize_filename, generate_folder_name, ensure_directory
 
 
 class DirectoryBuilder:

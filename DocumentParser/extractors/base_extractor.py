@@ -9,7 +9,7 @@ from typing import Optional, Dict, Any
 from dataclasses import dataclass
 from pathlib import Path
 
-from parsers import ParseResult
+from ..parsers import ParseResult
 
 
 @dataclass

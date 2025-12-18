@@ -14,11 +14,11 @@ try:
 except ImportError:
     OLLAMA_AVAILABLE = False
 
-from config import OCRConfig
-from parsers import parse_ocr_output
-from utils import configure_proxy_bypass, check_ollama_running, verify_model_exists
+from ..config import OCRConfig
+from ..parsers import parse_ocr_output
+from ..utils import configure_proxy_bypass, check_ollama_running, verify_model_exists
 from .base_extractor import BaseExtractor, ExtractionResult
-
+from ..config import create_default_config
 
 class OllamaExtractor(BaseExtractor):
     """
@@ -57,7 +57,7 @@ class OllamaExtractor(BaseExtractor):
             )
         
         # Use provided config or create default
-        from config import create_default_config
+        # from config import create_default_config
         self.config = config or create_default_config()
         
         # Configure proxy bypass (important for corporate networks)
@@ -172,6 +172,50 @@ class OllamaExtractor(BaseExtractor):
             # Parse output
             parse_result = parse_ocr_output(raw_output)
             
+            # # ========== NEW: Auto-scale bounding boxes (as of now not requires )==========
+            # from PIL import Image
+            
+            # # Get original image size
+            # img = Image.open(image_path)
+            # original_width, original_height = img.size
+            
+            # # Scale bboxes if needed
+            # if parse_result and parse_result.elements:
+            #     # Find max coordinates
+            #     max_x = 0
+            #     max_y = 0
+            #     for elem in parse_result.elements:
+            #         if elem.bbox:
+            #             max_x = max(max_x, elem.bbox[2])
+            #             max_y = max(max_y, elem.bbox[3])
+                
+            #     # If max coords are much smaller than image, scale is needed
+            #     if max_x > 0 and max_y > 0 and (max_x < original_width * 0.7 or max_y < original_height * 0.7):
+            #         # Calculate scale factors
+            #         scale_x = original_width / max_x
+            #         scale_y = original_height / max_y
+            #         scale = min(scale_x, scale_y)  # Use minimum to avoid overflow
+                    
+            #         print(f"    [BBOX AUTO-SCALING]")
+            #         print(f"      Image size: {original_width} × {original_height}")
+            #         print(f"      Model coords: ~{max_x} × ~{max_y}")
+            #         print(f"      Scale factor: {scale:.2f}x")
+                    
+            #         # Scale all bounding boxes
+            #         for elem in parse_result.elements:
+            #             if elem.bbox:
+            #                 elem.bbox = [
+            #                     int(elem.bbox[0] * scale),
+            #                     int(elem.bbox[1] * scale),
+            #                     int(elem.bbox[2] * scale),
+            #                     int(elem.bbox[3] * scale)
+            #                 ]
+                    
+            #         print(f"      ✓ Scaled {len(parse_result.elements)} bboxes")
+            # # ===================================================
+
+            # Calculate processing time
+            processing_time = time.time() - start_time
             # Create result
             return ExtractionResult(
                 raw_output=raw_output,

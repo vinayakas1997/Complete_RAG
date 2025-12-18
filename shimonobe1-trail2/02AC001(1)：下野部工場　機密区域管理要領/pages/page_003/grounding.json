@@ -1,0 +1,81 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 4,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "sub_title",
+      "bbox": [
+        378,
+        146,
+        611,
+        164
+      ],
+      "content": "社外者の入退場時のフロー",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[378, 146, 611, 164]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "image",
+      "bbox": [
+        100,
+        169,
+        890,
+        555
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[100, 169, 890, 555]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "sub_title",
+      "bbox": [
+        322,
+        563,
+        664,
+        581
+      ],
+      "content": "従業員による機密区域内撮影時のフロー",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[322, 563, 664, 581]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "image",
+      "bbox": [
+        100,
+        587,
+        890,
+        952
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[100, 587, 890, 952]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 4,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 9.867695569992065,
+    "prompt_used": "<|grounding|>Convert the document to markdown."
+  }
+}

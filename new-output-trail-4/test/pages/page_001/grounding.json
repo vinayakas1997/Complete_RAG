@@ -1,0 +1,161 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 9,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "title",
+      "bbox": [
+        425,
+        98,
+        573,
+        119
+      ],
+      "content": "# Data Collection : Tables",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[425, 98, 573, 119]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "bbox": [
+        44,
+        135,
+        299,
+        150
+      ],
+      "content": "(a) Each figure or table has a title and an informative caption.",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[44, 135, 299, 150]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "bbox": [
+        44,
+        164,
+        570,
+        180
+      ],
+      "content": "(b) Each figure or table is self-sufficient and includes explanations of numbers used, replicates, units of measurement, labels, etc.",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[44, 164, 570, 180]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        44,
+        193,
+        934,
+        225
+      ],
+      "content": "(c) Presentation of data allows for easy interpretation. Be Neat & Organized! It is okay to redraw original data tables used to collect data so they look better for presentation (Do this especially if you spilled liver juice on your paper!)",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[44, 193, 934, 225]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "bbox": [
+        44,
+        246,
+        101,
+        261
+      ],
+      "content": "Example #1",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[44, 246, 101, 261]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "table",
+      "bbox": [
+        344,
+        273,
+        654,
+        425
+      ],
+      "content": "<table><tr><td colspan=\"6\">The Affect of Intraspecies Competition on the<br>Mass of Individual Corn Plants</td></tr><tr><td rowspan=\"2\"># of Corn Seedlings per Poll</td><td colspan=\"4\">Average Mass of Corn Plants (gram +/- 0.1 g)</td><td rowspan=\"2\">Zabels & Nautis Listed!<br>Note that the<br>accuracy of the<br>balance beam is<br>listed!</td></tr><tr><td>Day 0</td><td>Day 5</td><td>Day 10</td><td>Day 15</td></tr><tr><td>1</td><td>3.1</td><td>3.4</td><td>9.8</td><td>31.6</td><td rowspan=\"4\">Note that significant<br>figures are maintained.<br>All decimal numbers<br>are rounded to<br>One-tenth of a gram!</td></tr><tr><td>5</td><td>3.1</td><td>3.4</td><td>8.5</td><td>22.4</td></tr><tr><td>10</td><td>3.1</td><td>3.3</td><td>7.2</td><td>17.5</td></tr><tr><td>15</td><td>3.1</td><td>3.2</td><td>5.3</td><td>12.4</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 16,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[344, 273, 654, 425]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        351,
+        426,
+        553,
+        483
+      ],
+      "content": "This data shows that plants gain more mass when there are fewer plants in a pot. All the seedlings had the same average mass (3.1 g) on the first day. The single seedling in a pot had a mass of 31.6 g after 15 days. The 5 seedlings in a pot had an average mass of 22.4 g after 15 days. The 10 seedlings in a pot and 15 seedlings in a pot had masses of 17.5 g and 12.4 g after 15 days.",
+      "confidence": null,
+      "metadata": {
+        "line_number": 20,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[351, 426, 553, 483]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "bbox": [
+        368,
+        510,
+        534,
+        535
+      ],
+      "content": "Note that a description of the data in the table have been displayed!",
+      "confidence": null,
+      "metadata": {
+        "line_number": 23,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[368, 510, 534, 535]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "bbox": [
+        483,
+        564,
+        516,
+        576
+      ],
+      "content": "Slicher",
+      "confidence": null,
+      "metadata": {
+        "line_number": 26,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[483, 564, 516, 576]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 9,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 38.95549511909485,
+    "prompt_used": "<|grounding|>Convert the document to markdown."
+  }
+}

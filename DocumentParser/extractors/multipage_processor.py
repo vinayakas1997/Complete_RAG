@@ -10,11 +10,11 @@ import json
 import time
 from dataclasses import dataclass
 
-from processors import PDFProcessor, ImageProcessor
-from storage import OutputManager, DirectoryBuilder
-from utils import is_pdf, is_supported_image, get_file_stem
+from ..processors import PDFProcessor, ImageProcessor
+from ..storage import OutputManager, DirectoryBuilder
+from ..utils import is_pdf, is_supported_image, get_file_stem
 from .base_extractor import BaseExtractor, ExtractionResult
-
+from ..config import get_default_output_config
 
 @dataclass
 class PageResult:
@@ -110,7 +110,7 @@ class MultiPageProcessor:
         
         # Get output config
         if output_config is None:
-            from config import get_default_output_config
+            # from config import get_default_output_config
             output_config = get_default_output_config()
         self.output_config = output_config
         
@@ -270,18 +270,49 @@ class MultiPageProcessor:
         # Create page output directory
         page_dir = self.dir_builder.create_page_directory(output_dir, page_number)
         
+        # ========== NEW: Resize image to 1024x1024 for OCR ==========
+        from PIL import Image
+        print(f"  [PRE-PROCESSING] Resizing image for OCR...")
+        
+        # Load original image
+        original_img = Image.open(image_path)
+        original_width, original_height = original_img.size
+        print(f"    Original size: {original_width} × {original_height}")
+        
+        # Resize to 1024x1024 (DeepSeek OCR Base resolution)
+        target_size = 1024
+        resized_img = original_img.resize((target_size, target_size), Image.LANCZOS)
+        
+        # Save resized image for OCR processing
+        resized_path = Path(image_path).parent / f"{Path(image_path).stem}_ocr.png"
+        resized_img.save(resized_path)
+        print(f"    Resized to: {target_size} × {target_size}")
+        
+        # Store scale factors for later (if needed)
+        scale_x = original_width / target_size
+        scale_y = original_height / target_size
+        # ===========================================================
+
         # Extract with retry if configured
         if hasattr(self.extractor, 'config') and self.extractor.config.retry_on_failure:
             extraction_result = self.extractor.extract_with_retry(
-                image_path=image_path,
+                # image_path=image_path,
+                image_path=str(resized_path),
                 custom_prompt=custom_prompt
             )
         else:
             extraction_result = self.extractor.extract(
-                image_path=image_path,
+                # image_path=image_path,
+                image_path=str(resized_path),
                 custom_prompt=custom_prompt
             )
         
+
+        # ========== NEW: Scale bboxes back to original size ==========
+        # (Optional - only if I want to draw on original size) then i can use the scale_x , scale_y
+        # For now, we'll save everything at 1024x1024 size
+        # ==============================================================
+
         # Save page results
         self.output_manager.save_page_result(
             result=extraction_result,
@@ -292,7 +323,8 @@ class MultiPageProcessor:
         # Save annotated image if configured
         if self.output_config.save_per_page.get('annotated_image', False):
             self._create_page_annotation(
-                image_path=image_path,
+                # image_path=image_path,
+                image_path=str(resized_path),
                 extraction_result=extraction_result,
                 page_dir=page_dir,
                 page_number=page_number
@@ -302,7 +334,8 @@ class MultiPageProcessor:
         return PageResult(
             page_number=page_number,
             extraction_result=extraction_result,
-            page_image_path=image_path,
+            # page_image_path=image_path,
+            page_image_path=str(resized_path),
             output_dir=page_dir
         )
     
@@ -323,8 +356,10 @@ class MultiPageProcessor:
             page_number: Page number
         """
         try:
-            from visualizers import BBoxVisualizer
-            
+            from ..visualizers import BBoxVisualizer
+            from PIL import Image
+            import shutil
+
             # Get visualization config from output_config or use defaults
             show_labels = getattr(self.output_config, 'show_labels', True)
             box_width = getattr(self.output_config, 'box_width', 3)
@@ -337,7 +372,15 @@ class MultiPageProcessor:
                 box_width=box_width,
                 color_scheme=color_scheme
             )
-            
+
+            # ========== FIX: Copy the RESIZED image as original ==========
+            original_path = Path(page_dir) / f"page_{page_number:03d}_original.png"
+        
+            # Copy the resized image (1024×1024) to output directory
+            if not original_path.exists():
+                shutil.copy2(image_path, original_path)  # ← image_path is already resized!
+                print(f"  ✓ Saved original image: {original_path.name}")
+            # ====================================================
             # Create annotated image path
             annotated_path = Path(page_dir) / f"page_{page_number:03d}_annotated.png"
             
@@ -350,6 +393,18 @@ class MultiPageProcessor:
                     output_path=str(annotated_path)
                 )
                 print(f"  ✓ Created annotation: {annotated_path.name}")
+                # ========== ADD THIS SECTION ==========
+                # Create side-by-side comparison if configured
+                create_comparison = getattr(self.output_config, 'create_comparison', True)
+                if create_comparison:
+                    comparison_path = Path(page_dir) / f"page_{page_number:03d}_comparison.png"
+                    visualizer.create_comparison(
+                        original_path=image_path,
+                        annotated_path=str(annotated_path),
+                        output_path=str(comparison_path)
+                    )
+                    print(f"  ✓ Created comparison: {comparison_path.name}")
+                # ======================================
             else:
                 print(f"  ⚠ No elements to visualize for page {page_number}")
         

@@ -46,7 +46,7 @@ MODEL_REGISTRY: Dict[str, ModelConfig] = {
             "temperature": 0.0,
             "top_p": 0.9,
             "top_k": 40,
-            "num_ctx": 4096
+            "num_ctx": 8192
         },
         prompt_prefix="<|grounding|>",
         description="DeepSeek OCR 3B - Fast OCR with grounding support"

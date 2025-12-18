@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import List, Optional, Dict, Tuple
 from PIL import Image, ImageDraw, ImageFont
 
-from parsers import ParsedElement
+from ..parsers import ParsedElement
 
 
 class BBoxVisualizer:
