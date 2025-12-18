@@ -34,9 +34,9 @@
 >>>>>>> adfefc1953d754f67485fe423b0b81f014f7582c
 
 ### 5. Processors Module
-- [ ] `processors/image_processor.py` - Image preprocessing
-- [ ] `processors/pdf_processor.py` - PDF to images
-- [ ] `processors/__init__.py` - Package exports
+- [x] `processors/image_processor.py` - Image preprocessing
+- [x] `processors/pdf_processor.py` - PDF to images
+- [x] `processors/__init__.py` - Package exports
 
 ### 6. Extractors Module
 - [ ] `extractors/deepseek_extractor.py` - Core OCR extraction
