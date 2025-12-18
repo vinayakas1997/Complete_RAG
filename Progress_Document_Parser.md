@@ -19,19 +19,11 @@
 - [x] `config/__init__.py` - Package exports
 
 ### 4. Parsers Module
-<<<<<<< HEAD
-- [ ] `parsers/base_parser.py` - Abstract parser interface
-- [ ] `parsers/grounding_parser.py` - Parse <|ref|><|det|> format
-- [ ] `parsers/markdown_parser.py` - Parse markdown output
-- [ ] `parsers/parser_registry.py` - Auto-select parser
-- [ ] `parsers/__init__.py` - Package exports
-=======
 - [x] `parsers/base_parser.py` - Abstract parser interface
 - [x] `parsers/grounding_parser.py` - Parse <|ref|><|det|> format
 - [x] `parsers/markdown_parser.py` - Parse markdown output
 - [x] `parsers/parser_registry.py` - Auto-select parser
 - [x] `parsers/__init__.py` - Package exports
->>>>>>> adfefc1953d754f67485fe423b0b81f014f7582c
 
 ### 5. Processors Module
 - [x] `processors/image_processor.py` - Image preprocessing
@@ -39,9 +31,10 @@
 - [x] `processors/__init__.py` - Package exports
 
 ### 6. Extractors Module
-- [ ] `extractors/deepseek_extractor.py` - Core OCR extraction
-- [ ] `extractors/document_extractor.py` - Multi-page handler
-- [ ] `extractors/__init__.py` - Package exports
+- [x] `extractors/base_extractor.py` - Abstract OCR extraction
+- [x] `extractors/ollama_extractors.py` - ollama model with ocr details extraction 
+- [x] `extractors/multipage_prcessor.py` - cobining the details of the pages and making as a whole document 
+- [x] `extractors/__init__.py` - Package exports
 
 ### 7. Visualizers Module
 - [ ] `visualizers/bbox_visualizer.py` - Draw bounding boxes
