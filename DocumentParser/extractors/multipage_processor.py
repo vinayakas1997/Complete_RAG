@@ -291,8 +291,13 @@ class MultiPageProcessor:
         
         # Save annotated image if configured
         if self.output_config.save_per_page.get('annotated_image', False):
-            # This will be handled by visualizer later
-            pass
+            self._create_page_annotation(
+                image_path=image_path,
+                extraction_result=extraction_result,
+                page_dir=page_dir,
+                page_number=page_number
+            )
+            
         
         return PageResult(
             page_number=page_number,
@@ -301,6 +306,59 @@ class MultiPageProcessor:
             output_dir=page_dir
         )
     
+    def _create_page_annotation(
+        self,
+        image_path: str,
+        extraction_result: ExtractionResult,
+        page_dir: str,
+        page_number: int
+    ):
+        """
+        Create annotated image with bounding boxes.
+        
+        Args:
+            image_path: Path to original image
+            extraction_result: Extraction result with elements
+            page_dir: Page output directory
+            page_number: Page number
+        """
+        try:
+            from visualizers import BBoxVisualizer
+            
+            # Get visualization config from output_config or use defaults
+            show_labels = getattr(self.output_config, 'show_labels', True)
+            box_width = getattr(self.output_config, 'box_width', 3)
+            color_scheme = getattr(self.output_config, 'color_scheme', 'default')
+            
+            # Create visualizer
+            visualizer = BBoxVisualizer(
+                show_labels=show_labels,
+                show_ids=True,
+                box_width=box_width,
+                color_scheme=color_scheme
+            )
+            
+            # Create annotated image path
+            annotated_path = Path(page_dir) / f"page_{page_number:03d}_annotated.png"
+            
+            # Only visualize if we have elements with bounding boxes
+            elements = extraction_result.get_elements()
+            if elements:
+                visualizer.visualize(
+                    image_path=image_path,
+                    elements=elements,
+                    output_path=str(annotated_path)
+                )
+                print(f"  ✓ Created annotation: {annotated_path.name}")
+            else:
+                print(f"  ⚠ No elements to visualize for page {page_number}")
+        
+        except Exception as e:
+            # Don't fail the entire process if visualization fails
+            print(f"  ⚠ Warning: Could not create annotation for page {page_number}: {e}")
+
+
+
     def _create_combined_output(
         self,
         page_results: List[PageResult],
