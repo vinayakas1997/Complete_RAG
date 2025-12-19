@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 3,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "text",
+      "bbox": [
+        90,
+        117,
+        215,
+        142
+      ],
+      "content": "別図第2",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[90, 117, 215, 142]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "bbox": [
+        351,
+        119,
+        511,
+        144
+      ],
+      "content": "使用区域図",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[351, 119, 511, 144]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "image",
+      "bbox": [
+        90,
+        162,
+        721,
+        913
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[90, 162, 721, 913]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 3,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 9.319882154464722,
+    "prompt_used": "<|grounding|>Convert the document to markdown."
+  }
+}

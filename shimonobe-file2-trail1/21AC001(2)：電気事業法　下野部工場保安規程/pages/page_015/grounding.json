@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 1,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "text",
+      "bbox": [
+        416,
+        947,
+        622,
+        963
+      ],
+      "content": "保管期間：旧版含永久",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[416, 947, 622, 963]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 1,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 9.954179525375366,
+    "prompt_used": "<|grounding|>Convert the document to markdown."
+  }
+}

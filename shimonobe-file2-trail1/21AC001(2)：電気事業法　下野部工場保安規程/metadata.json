@@ -1,0 +1,9 @@
+{
+  "input_file": "dont_send\\test_files\\21AC001：電気事業法　下野部工場保安規程\\21AC001(2)：電気事業法　下野部工場保安規程.pdf",
+  "page_count": 15,
+  "total_processing_time": 1916.2192747592926,
+  "successful_pages": 15,
+  "total_elements": 125,
+  "model_used": "ollama_extractor",
+  "timestamp": "2025-12-18 17:55:02"
+}

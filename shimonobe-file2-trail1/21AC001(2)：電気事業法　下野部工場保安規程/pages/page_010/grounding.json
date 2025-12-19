@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 3,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        91,
+        52,
+        910,
+        104
+      ],
+      "content": "<table><tr><td>電気事業法<br/>下野部工場 保安規程</td><td>分類<br/>番号</td><td>ページ 10/13</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[91, 52, 910, 104]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "table",
+      "bbox": [
+        101,
+        115,
+        895,
+        365
+      ],
+      "content": "<table><tr><td>配線及び<br/>配線器具</td><td>1<br/>2<br/>3</td><td>毎月<br/>毎月<br/>毎月</td><td>開閉器の点検<br/>(湿気、じんあい等<br/>に注意)<br/>器具の損傷、腐食、<br/>分電盤スイッチ、<br/>ヒューズの適正及び<br/>ゆるみ、加熱<br/>配線移動電線の施設<br/>状態、他の工作物と<br/>の離隔距離<br/>その他必要事項</td><td></td><td>1<br/>2<br/>1</td><td>2年<br/>1年</td><td>許容電流と負荷電流<br/>の確認<br/>その他必要事項</td><td>1<br/>2<br/>1</td><td>1年<br/>1年</td><td>絶縁抵抗測定<br/>接地抵抗測定<br/>必要により配線用途<br/>断器及び漏電遮断器<br/>の特性試験<br/>その他必要事項</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[101, 115, 895, 365]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "table",
+      "bbox": [
+        91,
+        387,
+        885,
+        773
+      ],
+      "content": "<table><tr><td colspan=\"2\">点検種別</td><td colspan=\"2\">外 部 点 検</td><td colspan=\"2\">定 期 点 検</td><td colspan=\"2\">精 密 点 検</td><td colspan=\"2\">測 定</td></tr><tr><td>対象</td><td>No</td><td>周期</td><td>点 検 項 目</td><td>No</td><td>周期</td><td>点 検 項 目</td><td>No</td><td>周期</td><td>点 検 項 目</td></tr><tr><td rowspan=\"4\">内<br/>燃<br/>力<br/>発<br/>電<br/>設</td><td>原 動 機</td><td>1</td><td>毎日</td><td>燃料系統及び防油タ<br/>ンクからの漏油</td><td>1</td><td>1年</td><td>燃料系統の点検</td><td></td><td>必要に応じて実施</td><td>1</td><td>1年</td><td>シーケンス試験</td></tr><tr><td>関 係</td><td>2</td><td>2月</td><td>異音、振動</td><td>2</td><td>1年</td><td>潤滑冷却系の点検</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>3</td><td>2月</td><td>蓄電池の液量</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>4</td><td>2月</td><td>排気色の点検</td><td>3</td><td>1年</td><td>その他必要事項</td><td></td><td></td><td></td><td></td></tr><tr><td>備</td><td>発 電 機</td><td>1</td><td>2月</td><td>異音、異臭、振動及<br/>び過熱</td><td>1</td><td>1年</td><td>電装関連の点検</td><td></td><td>必要に応じて実施</td><td>1</td><td>1年</td><td>絶縁抵抗測定</td></tr><tr><td></td><td>関 係</td><td>2</td><td>2月</td><td>電圧、電流、周波数</td><td>2</td><td>1年</td><td>その他必要事項</td><td></td><td></td><td>2</td><td>1年</td><td>接地抵抗測定</td></tr><tr><td></td><td></td><td>3</td><td>2月</td><td>その他必要事項</td><td></td><td></td><td></td><td></td><td></td><td>3</td><td>1年</td><td>シーケンス試験</td></tr><tr><td></td><td>配 電 盤</td><td></td><td></td><td>受変電設備と同じ</td><td></td><td></td><td>受変電設備と同じ</td><td></td><td></td><td>受変電設備と同じ</td><td></td><td>受変電設備と同じ</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[91, 387, 885, 773]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 3,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 17.14393711090088,
+    "prompt_used": "<|grounding|>Convert the document to markdown."
+  }
+}

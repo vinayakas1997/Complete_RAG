@@ -1,0 +1,97 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 5,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "sub_title",
+      "bbox": [
+        89,
+        168,
+        422,
+        202
+      ],
+      "content": "文書類改訂履歴書",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[89, 168, 422, 202]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "bbox": [
+        139,
+        208,
+        380,
+        225
+      ],
+      "content": "㈱ソミック石川 下野部工場",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[139, 208, 380, 225]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "table",
+      "bbox": [
+        432,
+        135,
+        905,
+        227
+      ],
+      "content": "<table><tr><td>文書類名称:</td><td>電気事業法</td></tr><tr><td>分類番号:</td><td>下野部工場 保安規程</td></tr><tr><td></td><td>21AC001</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[432, 135, 905, 227]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        778,
+        230,
+        905,
+        247
+      ],
+      "content": "ページ 1/1",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[778, 230, 905, 247]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "table",
+      "bbox": [
+        81,
+        246,
+        915,
+        936
+      ],
+      "content": "<table><tr><td>版</td><td>改訂日</td><td>項 番</td><td>改訂理由および内容</td></tr><tr><td>2</td><td>23/1/20</td><td></td><td>■兼任から専任に変更のため、兼任に関する条文削除<br/>第7条を削除し、以降の条番号繰り下げ<br/><br/>■兼任から専任に変更のため、<br/>別図第一 保安に関する組織図 変更<br/><br/>■2023年度 太陽光発電設備の設置をするため<br/>別表第1 巡視点検測定並びに手入基準 に太陽光発電設備の<br/>項目追加</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[81, 246, 915, 936]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 5,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 11.558175086975098,
+    "prompt_used": "<|grounding|>Convert the document to markdown."
+  }
+}

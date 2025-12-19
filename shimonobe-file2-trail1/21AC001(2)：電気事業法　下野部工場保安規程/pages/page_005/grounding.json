@@ -1,0 +1,369 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 22,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "sub_title",
+      "bbox": [
+        420,
+        120,
+        583,
+        141
+      ],
+      "content": "## 第9章 記録",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[420, 120, 583, 141]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "bbox": [
+        100,
+        168,
+        209,
+        186
+      ],
+      "content": "〔記録〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[100, 168, 209, 186]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "bbox": [
+        81,
+        189,
+        920,
+        229
+      ],
+      "content": "第24条 電気工作物の工事、維持及び運用に関する記録は、次に定めるところにより記録し、法令上又は保安上必要な期間保存しなければならない。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 189, 920, 229]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        141,
+        233,
+        296,
+        250
+      ],
+      "content": "(1) 自主検査記録",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[141, 233, 296, 250]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "bbox": [
+        141,
+        254,
+        440,
+        271
+      ],
+      "content": "(2) 巡視、点検、試験及び測定記録",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[141, 254, 440, 271]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "bbox": [
+        141,
+        275,
+        296,
+        292
+      ],
+      "content": "(3) 電気事故記録",
+      "confidence": null,
+      "metadata": {
+        "line_number": 16,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[141, 275, 296, 292]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        141,
+        296,
+        380,
+        313
+      ],
+      "content": "(4) 保修工事報告書(記録)",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[141, 296, 380, 313]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "bbox": [
+        141,
+        317,
+        389,
+        334
+      ],
+      "content": "(5) 主要電気機器の設備台帳",
+      "confidence": null,
+      "metadata": {
+        "line_number": 22,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[141, 317, 389, 334]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "bbox": [
+        141,
+        338,
+        351,
+        355
+      ],
+      "content": "(6) 保安・防災教育記録",
+      "confidence": null,
+      "metadata": {
+        "line_number": 25,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[141, 338, 351, 355]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "sub_title",
+      "bbox": [
+        375,
+        377,
+        628,
+        399
+      ],
+      "content": "## 第10章 責任の分界",
+      "confidence": null,
+      "metadata": {
+        "line_number": 28,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[375, 377, 628, 399]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "text",
+      "bbox": [
+        100,
+        425,
+        218,
+        442
+      ],
+      "content": "〔責任の分界〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 31,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[100, 425, 218, 442]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "bbox": [
+        81,
+        446,
+        920,
+        485
+      ],
+      "content": "第25条 中部電力(株)の設置する電気工作物との保安上の責任分界点は電力需給契約書のとおりとする。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 34,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 446, 920, 485]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "text",
+      "bbox": [
+        100,
+        511,
+        260,
+        528
+      ],
+      "content": "〔需要設備の構内〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 37,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[100, 511, 260, 528]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "bbox": [
+        81,
+        532,
+        530,
+        550
+      ],
+      "content": "第26条 需要設備の構内は、別図第2のとおりとする。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 40,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 532, 530, 550]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "text",
+      "bbox": [
+        100,
+        575,
+        218,
+        592
+      ],
+      "content": "〔危険の表示〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 43,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[100, 575, 218, 592]]<|/det|>"
+      }
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "bbox": [
+        81,
+        596,
+        929,
+        635
+      ],
+      "content": "第27条 受電室その他高圧電気工作物が設置されている場所等であって、危険の恐れのあるところには、人の注意を喚起するような表示を設ける。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 46,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 596, 929, 635]]<|/det|>"
+      }
+    },
+    {
+      "id": 17,
+      "type": "text",
+      "bbox": [
+        100,
+        660,
+        276,
+        678
+      ],
+      "content": "〔測定器具類の整備〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 49,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[100, 660, 276, 678]]<|/det|>"
+      }
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "bbox": [
+        81,
+        682,
+        710,
+        700
+      ],
+      "content": "第28条 電気工作物の保安上必要とする測定器具は、これを適正に保管する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 52,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 682, 710, 700]]<|/det|>"
+      }
+    },
+    {
+      "id": 19,
+      "type": "text",
+      "bbox": [
+        100,
+        725,
+        276,
+        742
+      ],
+      "content": "〔設計図書類の整備〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 55,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[100, 725, 276, 742]]<|/det|>"
+      }
+    },
+    {
+      "id": 20,
+      "type": "text",
+      "bbox": [
+        81,
+        746,
+        917,
+        764
+      ],
+      "content": "第29条 電気工作物に関する設計図、仕様書及び取扱説明書等については、必要な期間整備保管する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 58,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 746, 917, 764]]<|/det|>"
+      }
+    },
+    {
+      "id": 21,
+      "type": "text",
+      "bbox": [
+        100,
+        789,
+        276,
+        806
+      ],
+      "content": "〔手続き書類の整備〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 61,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[100, 789, 276, 806]]<|/det|>"
+      }
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "bbox": [
+        81,
+        810,
+        920,
+        849
+      ],
+      "content": "第30条 関係官庁及び電気事業者等に提出した書類及び図面、その他主要文書については、必要な期間その写しを保存する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 64,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 810, 920, 849]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 22,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 15.124618768692017,
+    "prompt_used": "<|grounding|>Convert the document to markdown."
+  }
+}

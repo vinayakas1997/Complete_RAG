@@ -1,0 +1,369 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 22,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        81,
+        52,
+        915,
+        103
+      ],
+      "content": "<table><tr><td>電気事業法<br/>下野部工場 保安規程</td><td>分類<br/>番号</td><td>ページ 2/13</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[81, 52, 915, 103]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "bbox": [
+        88,
+        126,
+        227,
+        143
+      ],
+      "content": "〔設置者の義務〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 126, 227, 143]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "bbox": [
+        81,
+        147,
+        915,
+        185
+      ],
+      "content": "第7条 電気工作物に関する保安上重要な事項を決定し又は実施しようとするときは、電気主任技術者の意見を求める。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 147, 915, 185]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        113,
+        190,
+        689,
+        207
+      ],
+      "content": "2 電気主任技術者の電気工作物に係る保安に関する意見を尊重する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[113, 190, 689, 207]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "bbox": [
+        113,
+        211,
+        915,
+        249
+      ],
+      "content": "3 法令に基づいて所管官庁に提出する書類の内容が電気工作物に係る保安に関係のある場合は、電気主任技術者の参画のもとにこれを立案し、決定する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[113, 211, 915, 249]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "bbox": [
+        113,
+        253,
+        764,
+        271
+      ],
+      "content": "4 所管官庁が法令に基づいて行う検査には、電気主任技術者を立ち会わせる。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 16,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[113, 253, 764, 271]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        104,
+        297,
+        237,
+        314
+      ],
+      "content": "〔従業者の義務〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[104, 297, 237, 314]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "bbox": [
+        81,
+        318,
+        915,
+        356
+      ],
+      "content": "第8条 電気工作物の工事、維持及び運用に従事する者は、電気主任技術者がその保安のためにする指示に従う。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 22,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 318, 915, 356]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "bbox": [
+        104,
+        382,
+        370,
+        399
+      ],
+      "content": "〔電気主任技術者不在時の措置〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 25,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[104, 382, 370, 399]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "bbox": [
+        81,
+        403,
+        915,
+        441
+      ],
+      "content": "第9条 電気主任技術者が病気その他やむを得ない事情により不在となる場合には、その業務の代行を行う者(以下「代務者」という。)をあらかじめ指名しておく。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 28,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 403, 915, 441]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "text",
+      "bbox": [
+        113,
+        445,
+        866,
+        463
+      ],
+      "content": "2 代務者は、電気主任技術者の不在時には電気主任技術者に指示された職務を誠実に行う。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 31,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[113, 445, 866, 463]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "bbox": [
+        104,
+        489,
+        317,
+        506
+      ],
+      "content": "〔電気主任技術者の解任〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 34,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[104, 489, 317, 506]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "text",
+      "bbox": [
+        81,
+        510,
+        775,
+        527
+      ],
+      "content": "第10条 電気主任技術者は次の各号の1に該当する場合には、解任することができる。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 37,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 510, 775, 527]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "bbox": [
+        130,
+        532,
+        920,
+        549
+      ],
+      "content": "一 電気主任技術者が病気等により欠勤が長期にわたり、保安の確保上不適当と認められたとき。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 40,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[130, 532, 920, 549]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "text",
+      "bbox": [
+        130,
+        554,
+        915,
+        592
+      ],
+      "content": "二 電気主任技術者が法令又はこの規程に定めるところに違反し、又は怠って保安の確保上不適当と認められたとき。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 43,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[130, 554, 915, 592]]<|/det|>"
+      }
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "bbox": [
+        130,
+        597,
+        579,
+        614
+      ],
+      "content": "三 電気主任技術者が刑事事件により起訴されたとき。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 46,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[130, 597, 579, 614]]<|/det|>"
+      }
+    },
+    {
+      "id": 17,
+      "type": "text",
+      "bbox": [
+        113,
+        618,
+        915,
+        656
+      ],
+      "content": "2 前項に該当する場合、又は電気主任技術者が昇進、転任若しくは退職等の場合のほか、その意に反して解任されない。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 49,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[113, 618, 915, 656]]<|/det|>"
+      }
+    },
+    {
+      "id": 18,
+      "type": "sub_title",
+      "bbox": [
+        398,
+        679,
+        599,
+        700
+      ],
+      "content": "第3章 保安教育",
+      "confidence": null,
+      "metadata": {
+        "line_number": 52,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[398, 679, 599, 700]]<|/det|>"
+      }
+    },
+    {
+      "id": 19,
+      "type": "text",
+      "bbox": [
+        104,
+        727,
+        206,
+        744
+      ],
+      "content": "〔保安教育〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 55,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[104, 727, 206, 744]]<|/det|>"
+      }
+    },
+    {
+      "id": 20,
+      "type": "text",
+      "bbox": [
+        81,
+        748,
+        915,
+        787
+      ],
+      "content": "第11条 総括管理者は、電気主任技術者の意見を聞き、保安に係る従業者に対し、事業場の実態に即した必要な知識及び技能の教育を定期的に行う。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 58,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 748, 915, 787]]<|/det|>"
+      }
+    },
+    {
+      "id": 21,
+      "type": "text",
+      "bbox": [
+        104,
+        813,
+        280,
+        830
+      ],
+      "content": "〔保安に関する訓練〕",
+      "confidence": null,
+      "metadata": {
+        "line_number": 61,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[104, 813, 280, 830]]<|/det|>"
+      }
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "bbox": [
+        81,
+        834,
+        915,
+        872
+      ],
+      "content": "第12条 総括管理者は、電気工作物の保安に係る従業者に対し、災害その他電気事故が発生した時の措置について定期的に実地訓練を行う。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 64,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 834, 915, 872]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 22,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 16.513077974319458,
+    "prompt_used": "<|grounding|>Convert the document to markdown."
+  }
+}
