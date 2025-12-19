@@ -196,7 +196,7 @@ class BaseExtractor(ABC):
         Returns:
             ExtractionResult: Error result
         """
-        from parsers import ParseResult
+        from ..parsers import ParseResult
         
         empty_parse = ParseResult(
             elements=[],
@@ -281,7 +281,7 @@ if __name__ == "__main__":
     # Test 1: ExtractionResult
     print("Test 1: ExtractionResult")
     print("-" * 60)
-    from parsers import ParseResult, ParsedElement
+    from ..parsers import ParseResult, ParsedElement
     
     elements = [
         ParsedElement(1, "table", [10, 20, 100, 200], "Table content"),

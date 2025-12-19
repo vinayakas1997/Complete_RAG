@@ -70,3 +70,7 @@
 
 Ready to continue with **config module** creation.
 Ask: "Continue with config files?" to proceed.
+
+-------------------------------------------------------------------------------------------
+
+- [] Hugging Face extractor 

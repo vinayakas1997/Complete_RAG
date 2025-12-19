@@ -16,6 +16,18 @@ pandas
 # Network and utilities
 requests
 
+# for the hugging face 
+# transformers 
+# torch
+# flash-attn  # comeback after and the long path thing in the windows
+# einops
+adddict
+matplotlib
+easydict
+
+# in the end install the cuda wheels
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+
 
 # Optional: For better fonts in visualization
 # pillow-fonts>=1.0.0

@@ -22,8 +22,10 @@ print("="*80)
 # OUTPUT_DIR = "shimonobe1-trail2"
 # YOUR_FILE = "test.pdf"
 # OUTPUT_DIR = "new-output-trail-4"
-YOUR_FILE = r"dont_send\test_files\21AC001：電気事業法　下野部工場保安規程\21AC001(2)：電気事業法　下野部工場保安規程.pdf"
-OUTPUT_DIR = "shimonobe-file2-trail1"
+YOUR_FILE = r"dont_send\02AC001(1)：下野部工場　機密区域管理要領_single_page_3.pdf"
+OUTPUT_DIR = "02AC001-single-page-3-test-single-filesystem-trail3"
+# YOUR_FILE = r"dont_send\M1-AM-STB3-25001-single-page(1).pdf"
+# OUTPUT_DIR = "M1-AM-STB3-25001-single-page-1-test-single-filesystem-try-2"
 # ==============================================
 
 # Check if file exists

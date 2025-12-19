@@ -1,9 +1,0 @@
-{
-  "input_file": "test.pdf",
-  "page_count": 1,
-  "total_processing_time": 39.39832901954651,
-  "successful_pages": 1,
-  "total_elements": 9,
-  "model_used": "ollama_extractor",
-  "timestamp": "2025-12-18 16:32:39"
-}

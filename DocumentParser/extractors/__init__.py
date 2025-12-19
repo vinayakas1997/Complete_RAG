@@ -11,7 +11,7 @@ from .base_extractor import (
 
 # Extractor implementations
 from .ollama_extractor import OllamaExtractor
-
+from .huggingface_extractor import HuggingFaceExtractor
 # Multi-page processor
 from .multipage_processor import (
     MultiPageProcessor,
@@ -25,6 +25,7 @@ __all__ = [
     'ExtractionResult',
     # Implementations
     'OllamaExtractor',
+    'HuggingFaceExtractor',
     # Multi-page
     'MultiPageProcessor',
     'PageResult',

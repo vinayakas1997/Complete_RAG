@@ -349,7 +349,7 @@ if __name__ == "__main__":
     print("-" * 60)
     
     try:
-        from parsers import ParsedElement
+        from ..parsers import ParsedElement
         import tempfile
         
         # Create test image

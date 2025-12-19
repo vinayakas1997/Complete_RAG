@@ -339,8 +339,8 @@ if __name__ == "__main__":
     print("-" * 60)
     
     import tempfile
-    from parsers import ParsedElement, ParseResult
-    from extractors.base_extractor import ExtractionResult
+    from ..parsers import ParsedElement, ParseResult
+    from ..extractors import ExtractionResult
     
     # Create mock result
     elements = [
