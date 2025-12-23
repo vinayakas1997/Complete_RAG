@@ -1,0 +1,97 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 5,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        93,
+        70,
+        900,
+        120
+      ],
+      "content": "<table><tr><td>下野部工場 機密区域管理要領</td><td>付図1</td><td>分類番号</td><td>02AC001(1)<br/>ページ 3/4</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[93, 70, 900, 120]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "sub_title",
+      "bbox": [
+        377,
+        146,
+        611,
+        164
+      ],
+      "content": "社外者の入退場時のフロー",
+      "confidence": null,
+      "metadata": {
+        "line_number": 6,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[377, 146, 611, 164]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "image",
+      "bbox": [
+        100,
+        169,
+        895,
+        555
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[100, 169, 895, 555]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "sub_title",
+      "bbox": [
+        320,
+        562,
+        666,
+        580
+      ],
+      "content": "従業員による機密区域内撮影時のフロー",
+      "confidence": null,
+      "metadata": {
+        "line_number": 12,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[320, 562, 666, 580]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "image",
+      "bbox": [
+        100,
+        586,
+        895,
+        952
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 15,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[100, 586, 895, 952]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 5,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 1.6810765266418457,
+    "prompt_used": "<image>\n<|grounding|>Extract all text and tables from this document in markdown format. Include comp..."
+  }
+}

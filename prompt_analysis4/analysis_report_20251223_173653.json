@@ -1,0 +1,92 @@
+{
+  "default": {
+    "success": true,
+    "processing_time": 45.53558,
+    "total_elements": 4,
+    "element_breakdown": {
+      "sub_title": 2,
+      "image": 2
+    },
+    "table_count": 0,
+    "text_count": 0,
+    "title_count": 2,
+    "image_count": 2,
+    "output_dir": "prompt_analysis4/default_20251223_173653",
+    "prompt_info": {
+      "prompt": "<image>\n<|grounding|>Convert the document to markdown.",
+      "description": "Default DeepSeek prompt",
+      "difficulty": "Simple",
+      "expected_speed": "Fast (30-45s)",
+      "best_for": "General documents"
+    },
+    "efficiency_score": 0.08784339630680009
+  },
+  "table_focused": {
+    "success": true,
+    "processing_time": 2.527736,
+    "total_elements": 5,
+    "element_breakdown": {
+      "table": 1,
+      "sub_title": 2,
+      "image": 2
+    },
+    "table_count": 1,
+    "text_count": 0,
+    "title_count": 2,
+    "image_count": 2,
+    "output_dir": "prompt_analysis4/table_focused_20251223_173653",
+    "prompt_info": {
+      "prompt": "<image>\n<|grounding|>Extract all text and tables from this document in markdown format. Include complete table structures with all headers and data rows.",
+      "description": "Table-focused extraction",
+      "difficulty": "Medium",
+      "expected_speed": "Medium (40-60s)",
+      "best_for": "Documents with tables"
+    },
+    "efficiency_score": 1.9780546702661987
+  },
+  "comprehensive": {
+    "success": true,
+    "processing_time": 2.523703,
+    "total_elements": 5,
+    "element_breakdown": {
+      "table": 1,
+      "sub_title": 2,
+      "image": 2
+    },
+    "table_count": 1,
+    "text_count": 0,
+    "title_count": 2,
+    "image_count": 2,
+    "output_dir": "prompt_analysis4/comprehensive_20251223_173653",
+    "prompt_info": {
+      "prompt": "<image>\n<|grounding|>Extract all text and tables from this document in markdown format. Include complete table structures with all headers and data rows. Preserve document layout and hierarchy.",
+      "description": "Comprehensive extraction",
+      "difficulty": "Medium-High",
+      "expected_speed": "Medium-Slow (45-70s)",
+      "best_for": "Complex documents"
+    },
+    "efficiency_score": 1.9812156977267137
+  },
+  "japanese_focused": {
+    "success": true,
+    "processing_time": 2.040119,
+    "total_elements": 5,
+    "element_breakdown": {
+      "table": 3,
+      "table_caption": 2
+    },
+    "table_count": 3,
+    "text_count": 0,
+    "title_count": 0,
+    "image_count": 0,
+    "output_dir": "prompt_analysis4/japanese_focused_20251223_173653",
+    "prompt_info": {
+      "prompt": "<image>\n<|grounding|>この文書から全てのテキストと表を抽出してください。完全な表構造を含めてください。",
+      "description": "Japanese-optimized prompt",
+      "difficulty": "Medium",
+      "expected_speed": "Medium (40-60s)",
+      "best_for": "Japanese documents"
+    },
+    "efficiency_score": 2.450837426640309
+  }
+}

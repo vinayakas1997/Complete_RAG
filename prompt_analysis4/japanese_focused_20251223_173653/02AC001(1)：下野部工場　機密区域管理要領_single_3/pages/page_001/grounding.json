@@ -1,0 +1,97 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 5,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        93,
+        74,
+        902,
+        120
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[93, 74, 902, 120]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "table_caption",
+      "bbox": [
+        380,
+        147,
+        608,
+        164
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 2,
+        "raw_line": "<|ref|>table_caption<|/ref|><|det|>[[380, 147, 608, 164]]<|/det|>  "
+      }
+    },
+    {
+      "id": 3,
+      "type": "table",
+      "bbox": [
+        97,
+        170,
+        890,
+        553
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[97, 170, 890, 553]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "table_caption",
+      "bbox": [
+        322,
+        561,
+        664,
+        579
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>table_caption<|/ref|><|det|>[[322, 561, 664, 579]]<|/det|>  "
+      }
+    },
+    {
+      "id": 5,
+      "type": "table",
+      "bbox": [
+        97,
+        586,
+        890,
+        948
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[97, 586, 890, 948]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 5,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 1.326763391494751,
+    "prompt_used": "<image>\n<|grounding|>この文書から全てのテキストと表を抽出してください。完全な表構造を含めてください。"
+  }
+}

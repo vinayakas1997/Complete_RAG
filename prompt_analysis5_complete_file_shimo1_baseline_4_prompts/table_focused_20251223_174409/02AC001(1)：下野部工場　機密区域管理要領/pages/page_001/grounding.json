@@ -1,0 +1,321 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 19,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        88,
+        68,
+        900,
+        151
+      ],
+      "content": "<table><tr><td>承認</td><td>審査</td><td>起案</td><td>下野部工場 機密区域管理要領</td><td>分類<br/>番号</td><td>02AC001(1)<br/>ページ 1/4</td></tr><tr><td></td><td></td><td></td><td>主管部門: 下野部工場</td><td>制定<br/>改訂</td><td>2021年8月26日<br/>年月日</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[88, 68, 900, 151]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "sub_title",
+      "bbox": [
+        88,
+        165,
+        166,
+        183
+      ],
+      "content": "## 1. 総則",
+      "confidence": null,
+      "metadata": {
+        "line_number": 6,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[88, 165, 166, 183]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "bbox": [
+        96,
+        195,
+        899,
+        260
+      ],
+      "content": "(1) この要領は、企業機密管理規定 (01V003) に定める「6.3外部者の入退場管理」、「6.4機密区域内での撮影」の各項目について、下野部工場主管の区域において従業員が遵守するルール詳細を定める。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[96, 195, 899, 260]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        96,
+        271,
+        790,
+        290
+      ],
+      "content": "(2) 下野部工場主管の機密区域は、社内ポータルサイト内の以下の指定図を参照する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 12,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[96, 271, 790, 290]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "bbox": [
+        142,
+        300,
+        808,
+        319
+      ],
+      "content": "配置場所: 全社ドキュメント>コンフライアンス>企業機密管理>機密区域指定図",
+      "confidence": null,
+      "metadata": {
+        "line_number": 15,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[142, 300, 808, 319]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "sub_title",
+      "bbox": [
+        88,
+        359,
+        340,
+        377
+      ],
+      "content": "## 2. 機密区域への入退場管理",
+      "confidence": null,
+      "metadata": {
+        "line_number": 18,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[88, 359, 340, 377]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        126,
+        389,
+        899,
+        431
+      ],
+      "content": "① 事前に受入担当者が所属する部門の役職者 (直接部門では班長以上、間接部門ではGL以上) から、社外者の入場許可 (口頭・メール可) を得る。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 21,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[126, 389, 899, 431]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "bbox": [
+        150,
+        435,
+        742,
+        453
+      ],
+      "content": "※ 連絡を受けた班長・組長・GLは速やかに課長・室長へ連絡をすること。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 24,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[150, 435, 742, 453]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "bbox": [
+        126,
+        464,
+        895,
+        505
+      ],
+      "content": "② 下野部工場事務所1 F受付に置く「社外者入退場記録表」(01C508-3) に入退場の記録を残す。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 27,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[126, 464, 895, 505]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "bbox": [
+        126,
+        516,
+        895,
+        558
+      ],
+      "content": "③ 社外者は、区域の入場の際に下野部工場の用意する「腕章」若しくは「入室許可証」を装着する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 30,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[126, 516, 895, 558]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "text",
+      "bbox": [
+        126,
+        569,
+        900,
+        611
+      ],
+      "content": "③ 社外者との打合せは、機密区域外である、カフェ2、第1会議室、面談室1、面談室2で行うこととし、その他での打ち合わせは禁止とする。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 33,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[126, 569, 900, 611]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "bbox": [
+        126,
+        621,
+        902,
+        663
+      ],
+      "content": "④ 社外者を資材搬入等でトラックヤード内 (機密区域外) に立入らせる場合には、「関係者以外立入禁止」の表示を超えて機密区域内へ立入らないよう、事前に社外者へ伝達する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 36,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[126, 621, 902, 663]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "text",
+      "bbox": [
+        81,
+        674,
+        885,
+        693
+      ],
+      "content": "※ 企業機密管理規定の定めに従い、包括許可により、都度の許可及び記録を免除された業者を除く。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 39,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[81, 674, 885, 693]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "sub_title",
+      "bbox": [
+        81,
+        733,
+        487,
+        752
+      ],
+      "content": "## 3. 従業員による機密区域での撮影・録音の管理",
+      "confidence": null,
+      "metadata": {
+        "line_number": 42,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[81, 733, 487, 752]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "text",
+      "bbox": [
+        126,
+        764,
+        480,
+        782
+      ],
+      "content": "① 業務目的以外の撮影・録音は禁止する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 45,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[126, 764, 480, 782]]<|/det|>"
+      }
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "bbox": [
+        126,
+        794,
+        902,
+        835
+      ],
+      "content": "② 撮影者の所属する部門の役職者 (直接部門では班長以上、間接部門ではGL以上) の事前の許可を得る。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 48,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[126, 794, 902, 835]]<|/det|>"
+      }
+    },
+    {
+      "id": 17,
+      "type": "text",
+      "bbox": [
+        126,
+        847,
+        853,
+        865
+      ],
+      "content": "③ 会社指定の目印のついた撮影機器等を使用し、個人の携帯・スマホでの撮影を禁止する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 51,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[126, 847, 853, 865]]<|/det|>"
+      }
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "bbox": [
+        126,
+        876,
+        824,
+        894
+      ],
+      "content": "④ 撮影機器等の貸出しは、撮影機器等貸出記録台帳 (01V003-6) に記録をする。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 54,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[126, 876, 824, 894]]<|/det|>"
+      }
+    },
+    {
+      "id": 19,
+      "type": "text",
+      "bbox": [
+        126,
+        906,
+        518,
+        924
+      ],
+      "content": "⑤ 撮影許可者は、撮影時に「腕章」を着用する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 57,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[126, 906, 518, 924]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 19,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 48.06131052970886,
+    "prompt_used": "<image>\n<|grounding|>Extract all text and tables from this document in markdown format. Include comp..."
+  }
+}

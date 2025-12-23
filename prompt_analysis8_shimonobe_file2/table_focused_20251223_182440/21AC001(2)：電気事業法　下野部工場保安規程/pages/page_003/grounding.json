@@ -1,0 +1,257 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 15,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "sub_title",
+      "bbox": [
+        340,
+        141,
+        664,
+        163
+      ],
+      "content": "## 第4章 工事の計画及び実施",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[340, 141, 664, 163]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "sub_title",
+      "bbox": [
+        103,
+        190,
+        203,
+        206
+      ],
+      "content": "### [工事計画]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 6,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[103, 190, 203, 206]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "bbox": [
+        87,
+        211,
+        915,
+        250
+      ],
+      "content": "第13条 総括管理者は、電気工作物の設置、改造等の工事計画を立案するにあたっては、電気主任技術者の意見を求める。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 211, 915, 250]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        117,
+        254,
+        915,
+        293
+      ],
+      "content": "2. 電気主任技術者は、電気工作物の安全な運用を確保するため、電気工作物の主要な修繕工事及び改良工事(以下「保修工事」という。)計画を立案し、総括管理者に承認を求める。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 12,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[117, 254, 915, 293]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "sub_title",
+      "bbox": [
+        103,
+        318,
+        218,
+        334
+      ],
+      "content": "### [工事の実施]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 15,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[103, 318, 218, 334]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "bbox": [
+        87,
+        339,
+        920,
+        357
+      ],
+      "content": "第14条 電気工作物に関する工事の実施にあたっては、電気主任技術者の監督のもとにこれを施工する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 18,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 339, 920, 357]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        117,
+        362,
+        915,
+        421
+      ],
+      "content": "2. 当事業場の電気工作物に関する工事を他の者に請け負わせる場合には、電気主任技術者の監督のもとに常に責任の所在を明確にするとともに、完成した場合には、電気主任技術者においてこれを検査し、保安上支障ないことを確認して引き取る。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 21,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[117, 362, 915, 421]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "sub_title",
+      "bbox": [
+        422,
+        465,
+        579,
+        486
+      ],
+      "content": "## 第5章 保守",
+      "confidence": null,
+      "metadata": {
+        "line_number": 24,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[422, 465, 579, 486]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "sub_title",
+      "bbox": [
+        103,
+        512,
+        318,
+        528
+      ],
+      "content": "### [法定事業者検査の実施]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 27,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[103, 512, 318, 528]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "bbox": [
+        87,
+        533,
+        911,
+        571
+      ],
+      "content": "第15条 法令で事業者検査が定められている電気工作物については、検査毎に電気主任技術者の指導・監督のもと必要な責任者を定め、法令に従い事業者検査を行う。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 30,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 533, 911, 571]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "sub_title",
+      "bbox": [
+        103,
+        597,
+        275,
+        613
+      ],
+      "content": "### [巡視、点検、測定]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 33,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[103, 597, 275, 613]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "bbox": [
+        87,
+        618,
+        915,
+        677
+      ],
+      "content": "第16条 電気工作物の保安のための巡視、点検及び測定は、別表第1に定める基準に従い、電気主任技術者において、総括管理者の承認を得て計画的に実施し、その結果について総括管理者まで報告する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 36,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 618, 915, 677]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "text",
+      "bbox": [
+        87,
+        703,
+        915,
+        763
+      ],
+      "content": "第17条 総括管理者は、巡視、点検又は測定の結果、法令に定める技術基準に適合しない事項が判明したときには、当該電気工作物を修理し、改造し、移設し又はその使用を一時停止し、若しくは制限する等の措置を講じ、常に技術基準に適合するように維持する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 39,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 703, 915, 763]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "sub_title",
+      "bbox": [
+        103,
+        789,
+        260,
+        805
+      ],
+      "content": "### [事故の再発防止]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 42,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[103, 789, 260, 805]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "text",
+      "bbox": [
+        87,
+        810,
+        911,
+        849
+      ],
+      "content": "第18条 事故その他異常が発生した場合には、必要に応じ、臨時に精密検査を行いその原因を究明し、再発防止に遺漏のないように措置する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 45,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 810, 911, 849]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 15,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 12.943298101425171,
+    "prompt_used": "<image>\n<|grounding|>Extract all text and tables from this document in markdown format. Include comp..."
+  }
+}

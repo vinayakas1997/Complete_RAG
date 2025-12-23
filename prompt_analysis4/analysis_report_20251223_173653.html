@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prompt Analysis Report - 20251223_173653</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; }
+        h1 { color: #333; border-bottom: 3px solid #667eea; padding-bottom: 10px; }
+        h2 { color: #667eea; margin-top: 30px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background: #667eea; color: white; padding: 12px; text-align: left; }
+        td { padding: 10px; border-bottom: 1px solid #ddd; }
+        tr:hover { background: #f9f9f9; }
+        .medal { font-size: 20px; }
+        .success { color: #4caf50; font-weight: bold; }
+        .time { color: #2196f3; }
+        .elements { color: #ff9800; }
+        .prompt-card { background: #f9f9f9; padding: 15px; margin: 10px 0; border-radius: 5px; border-left: 4px solid #667eea; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Prompt Analysis Report</h1>
+        <p><strong>Test File:</strong> 02AC001(1)：下野部工場　機密区域管理要領_single_3.pdf</p>
+        <p><strong>Timestamp:</strong> 20251223_173653</p>
+        <p><strong>Prompts Tested:</strong> 4</p>
+        
+        <h2>⏱️ Speed Ranking</h2>
+        <table>
+            <tr>
+                <th>Rank</th>
+                <th>Prompt</th>
+                <th>Time (s)</th>
+                <th>Elements</th>
+                <th>Tables</th>
+                <th>Efficiency</th>
+            </tr>
+
+            <tr>
+                <td class="medal">🥇</td>
+                <td>japanese_focused</td>
+                <td class="time">2.04s</td>
+                <td class="elements">5</td>
+                <td>3</td>
+                <td>2.45</td>
+            </tr>
+
+            <tr>
+                <td class="medal">🥈</td>
+                <td>comprehensive</td>
+                <td class="time">2.52s</td>
+                <td class="elements">5</td>
+                <td>1</td>
+                <td>1.98</td>
+            </tr>
+
+            <tr>
+                <td class="medal">🥉</td>
+                <td>table_focused</td>
+                <td class="time">2.53s</td>
+                <td class="elements">5</td>
+                <td>1</td>
+                <td>1.98</td>
+            </tr>
+
+            <tr>
+                <td class="medal">4</td>
+                <td>default</td>
+                <td class="time">45.54s</td>
+                <td class="elements">4</td>
+                <td>0</td>
+                <td>0.09</td>
+            </tr>
+
+        </table>
+        
+        <h2>📋 Prompt Details</h2>
+
+        <div class="prompt-card">
+            <h3>default</h3>
+            <p><strong>Description:</strong> Default DeepSeek prompt</p>
+            <p><strong>Difficulty:</strong> Simple</p>
+            <p><strong>Processing Time:</strong> <span class="time">45.54s</span></p>
+            <p><strong>Elements Detected:</strong> <span class="elements">4</span></p>
+            <p><strong>Tables:</strong> 0, <strong>Text:</strong> 0, <strong>Titles:</strong> 2</p>
+            <p><strong>Output:</strong> prompt_analysis4/default_20251223_173653</p>
+        </div>
+
+        <div class="prompt-card">
+            <h3>table_focused</h3>
+            <p><strong>Description:</strong> Table-focused extraction</p>
+            <p><strong>Difficulty:</strong> Medium</p>
+            <p><strong>Processing Time:</strong> <span class="time">2.53s</span></p>
+            <p><strong>Elements Detected:</strong> <span class="elements">5</span></p>
+            <p><strong>Tables:</strong> 1, <strong>Text:</strong> 0, <strong>Titles:</strong> 2</p>
+            <p><strong>Output:</strong> prompt_analysis4/table_focused_20251223_173653</p>
+        </div>
+
+        <div class="prompt-card">
+            <h3>comprehensive</h3>
+            <p><strong>Description:</strong> Comprehensive extraction</p>
+            <p><strong>Difficulty:</strong> Medium-High</p>
+            <p><strong>Processing Time:</strong> <span class="time">2.52s</span></p>
+            <p><strong>Elements Detected:</strong> <span class="elements">5</span></p>
+            <p><strong>Tables:</strong> 1, <strong>Text:</strong> 0, <strong>Titles:</strong> 2</p>
+            <p><strong>Output:</strong> prompt_analysis4/comprehensive_20251223_173653</p>
+        </div>
+
+        <div class="prompt-card">
+            <h3>japanese_focused</h3>
+            <p><strong>Description:</strong> Japanese-optimized prompt</p>
+            <p><strong>Difficulty:</strong> Medium</p>
+            <p><strong>Processing Time:</strong> <span class="time">2.04s</span></p>
+            <p><strong>Elements Detected:</strong> <span class="elements">5</span></p>
+            <p><strong>Tables:</strong> 3, <strong>Text:</strong> 0, <strong>Titles:</strong> 0</p>
+            <p><strong>Output:</strong> prompt_analysis4/japanese_focused_20251223_173653</p>
+        </div>
+
+    </div>
+</body>
+</html>

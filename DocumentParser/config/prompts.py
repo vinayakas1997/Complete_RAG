@@ -30,14 +30,28 @@ PROMPTS: Dict[str, PromptTemplate] = {
         model_specific="deepseek-ocr"
     ),
     
-    "grounding_markdown_v1.0": PromptTemplate(
-        version="v1.0",
-        prompt="<|grounding|>Convert the document to markdown.",
-        description="Grounding + markdown conversion",
-        use_grounding=True,
-        model_specific="deepseek-ocr"
-    ),
+    # "grounding_markdown_v1.0": PromptTemplate(
+    #     version="v1.0",
+    #     prompt="<|grounding|>Convert the document to markdown.",
+    #     description="Grounding + markdown conversion",
+    #     use_grounding=True,
+    #     model_specific="deepseek-ocr"
+    # ),
     
+    # "grounding_markdown_v1.0": PromptTemplate(
+    #     version="v1.0",
+    #     prompt= """
+    # <|grounding|>Extract ALL content completely:
+    # 1. ALL tables - complete structures, not fragments
+    # 2. Table headers and all data rows
+    # 3. All text outside tables
+    # 4. Preserve document layout
+    # Focus: Completeness and accuracy.""",
+    #     description="Grounding + markdown conversion",
+    #     use_grounding=True,
+    #     model_specific="deepseek-ocr"
+    # ),
+
     "grounding_detailed_v1.0": PromptTemplate(
         version="v1.0",
         prompt="<|grounding|>Extract all text, tables, and structural elements from this document.",

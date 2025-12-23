@@ -1,0 +1,9 @@
+{
+  "input_file": "dont_send\\02AC001(1)：下野部工場　機密区域管理要領_single_3.pdf",
+  "page_count": 1,
+  "total_processing_time": 44.35972857475281,
+  "successful_pages": 1,
+  "total_elements": 4,
+  "model_used": "ollama_extractor",
+  "timestamp": "2025-12-23 15:33:34"
+}

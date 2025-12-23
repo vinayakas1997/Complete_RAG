@@ -1,0 +1,13 @@
+{
+  "success": false,
+  "parser_type": "none",
+  "element_count": 0,
+  "error_message": "Failed after 3 attempts. Last error: Extraction failed: Server disconnected without sending a response.",
+  "elements": [],
+  "metadata": null,
+  "extraction_metadata": {
+    "model": "unknown",
+    "processing_time": 0.0,
+    "prompt_used": ""
+  }
+}

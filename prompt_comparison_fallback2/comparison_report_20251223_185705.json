@@ -1,0 +1,93 @@
+{
+  "1_table_focused": {
+    "success": true,
+    "type": "BASELINE",
+    "processing_time": 42.258623,
+    "total_elements": 2,
+    "element_breakdown": {
+      "table_caption": 1,
+      "table": 1
+    },
+    "table_count": 1,
+    "text_count": 0,
+    "image_count": 0,
+    "title_count": 0,
+    "output_dir": "prompt_comparison_fallback2/1_table_focused_20251223_185705",
+    "prompt_info": {
+      "prompt": "<image>\n<|grounding|>Extract all text and tables from this document in markdown format. Include complete table structures with all headers and data rows.",
+      "description": "Table-focused (baseline)",
+      "type": "BASELINE",
+      "difficulty": "Medium",
+      "expected_speed": "Fast (2-3s)",
+      "best_for": "Documents with clear tables"
+    }
+  },
+  "2_comprehensive": {
+    "success": true,
+    "type": "BASELINE",
+    "processing_time": 5.503718,
+    "total_elements": 2,
+    "element_breakdown": {
+      "table_caption": 1,
+      "table": 1
+    },
+    "table_count": 1,
+    "text_count": 0,
+    "image_count": 0,
+    "title_count": 0,
+    "output_dir": "prompt_comparison_fallback2/2_comprehensive_20251223_185705",
+    "prompt_info": {
+      "prompt": "<image>\n<|grounding|>Extract all text and tables from this document in markdown format. Include complete table structures with all headers and data rows. Preserve document layout and hierarchy.",
+      "description": "Comprehensive (baseline)",
+      "type": "BASELINE",
+      "difficulty": "Medium-High",
+      "expected_speed": "Fast (2-3s)",
+      "best_for": "Complex documents"
+    }
+  },
+  "4_table_fallback": {
+    "success": true,
+    "type": "FALLBACK",
+    "processing_time": 838.147895,
+    "total_elements": 2,
+    "element_breakdown": {
+      "table_caption": 1,
+      "table": 1
+    },
+    "table_count": 1,
+    "text_count": 0,
+    "image_count": 0,
+    "title_count": 0,
+    "output_dir": "prompt_comparison_fallback2/4_table_fallback_20251223_185705",
+    "prompt_info": {
+      "prompt": "<image>\n<|grounding|>Extract all text and tables from this document. Include complete table structures. If any element's structure is unclear or ambiguous, mark it as an image instead of forcing interpretation.",
+      "description": "Table with fallback",
+      "type": "FALLBACK",
+      "difficulty": "Medium",
+      "expected_speed": "Fast (2-3s)",
+      "best_for": "Complex/unclear tables"
+    }
+  },
+  "5_comprehensive_safe": {
+    "success": true,
+    "type": "FALLBACK",
+    "processing_time": 773.328383,
+    "total_elements": 25008,
+    "element_breakdown": {
+      "text": 25008
+    },
+    "table_count": 0,
+    "text_count": 25008,
+    "image_count": 0,
+    "title_count": 0,
+    "output_dir": "prompt_comparison_fallback2/5_comprehensive_safe_20251223_185705",
+    "prompt_info": {
+      "prompt": "<image>\n<|grounding|>Extract all content from this document including tables and text. For complex or ambiguous structures that cannot be clearly parsed, mark them as images rather than guessing. Preserve what is clear, mark unclear as image.",
+      "description": "Comprehensive with safe fallback",
+      "type": "FALLBACK",
+      "difficulty": "Medium-High",
+      "expected_speed": "Fast (2-3s)",
+      "best_for": "Mixed clarity documents"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "input_file": "dont_send\\shimonobe_file2_page6.pdf",
+  "page_count": 1,
+  "total_processing_time": 773.3233006000519,
+  "successful_pages": 1,
+  "total_elements": 25008,
+  "model_used": "ollama_extractor",
+  "timestamp": "2025-12-23 19:24:52"
+}

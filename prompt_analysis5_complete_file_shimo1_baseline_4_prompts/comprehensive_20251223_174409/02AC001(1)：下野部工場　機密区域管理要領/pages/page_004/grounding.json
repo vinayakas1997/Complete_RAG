@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 3,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        96,
+        72,
+        889,
+        120
+      ],
+      "content": "<table><tr><td>下野部工場 機密区域管理要領</td><td>付図1</td><td>分類<br/>番号</td><td>02AC001(1)<br/>ページ 4/4</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[96, 72, 889, 120]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "sub_title",
+      "bbox": [
+        324,
+        148,
+        668,
+        167
+      ],
+      "content": "社外者による機密区域内撮影時のフロー",
+      "confidence": null,
+      "metadata": {
+        "line_number": 6,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[324, 148, 668, 167]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "image",
+      "bbox": [
+        100,
+        172,
+        888,
+        595
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[100, 172, 888, 595]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 3,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 9.748629093170166,
+    "prompt_used": "<image>\n<|grounding|>Extract all text and tables from this document in markdown format. Include comp..."
+  }
+}

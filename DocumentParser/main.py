@@ -186,7 +186,9 @@ class OllamaOCR:
                 f"Unsupported file type: {file_path.suffix}\n"
                 f"Supported: PDF, PNG, JPG, JPEG, GIF, BMP, TIFF, WEBP"
             )
-        
+        ##################
+        # Add other validation in futre like for the html , word, txt,...others
+        ################## 
         if verbose:
             print("\n" + "="*60)
             print(f"Processing: {file_path.name}")
@@ -194,6 +196,9 @@ class OllamaOCR:
             print(f"Model: {self.config.model_name}")
             print(f"Use grounding: {self.config.use_grounding}")
             print(f"Output: {self.config.output_config.output_base_dir}")
+            if self.config.custom_prompt:
+                print(f"configuration prompt set : {self.config.custom_prompt}")
+            print(f"Custom prompt in process: {custom_prompt if custom_prompt else 'Not set here'}")
             print("-"*60)
         
         # Process document

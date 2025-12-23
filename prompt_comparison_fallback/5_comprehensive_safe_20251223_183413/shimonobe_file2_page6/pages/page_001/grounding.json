@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 2,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "sub_title",
+      "bbox": [
+        88,
+        120,
+        526,
+        142
+      ],
+      "content": "## 別表第1 巡視点検測定並びに手入基準",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[88, 120, 526, 142]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "table",
+      "bbox": [
+        97,
+        141,
+        888,
+        867
+      ],
+      "content": "<table><tr><td colspan=\"3\">点検種別</td><td colspan=\"3\">外部点検</td><td colspan=\"3\">定期点検</td><td colspan=\"3\">精密点検</td><td colspan=\"3\">測定</td></tr><tr><td rowspan=\"2\">対象</td><td rowspan=\"2\">No</td><td rowspan=\"2\">周期</td><td rowspan=\"2\">点検項目</td><td rowspan=\"2\">No</td><td rowspan=\"2\">周期</td><td rowspan=\"2\">点検項目</td><td rowspan=\"2\">No</td><td rowspan=\"2\">周期</td><td rowspan=\"2\">点検項目</td><td rowspan=\"2\">No</td><td rowspan=\"2\">周期</td><td rowspan=\"2\">点検項目</td><td rowspan=\"2\">No</td><td rowspan=\"2\">周期</td></tr><tr><td></td></tr><tr><td rowspan=\"4\">受<br/>変<br/>電</td><td rowspan=\"2\">断路器<br/>開閉器類</td><td>1</td><td>毎月</td><td>受と刃物の接触、過熱、変色、ゆるみ、汚損、異物付着<br/>その他必要事項</td><td>1</td><td>1年</td><td>停止して受と刃の接触、過熱、ゆるみ、荒れ具合<br/>損傷、亀裂</td><td></td><td></td><td></td><td>1</td><td>1年</td><td>絶縁抵抗測定<br/>接地抵抗測定<br/>その他必要事項</td></tr><tr><td>2</td><td>毎月</td><td>外観点検、汚損、ガス・空気・油漏れ、亀裂、過熱、発錆、損傷、異常音、各種圧力<br/>指示、点灯、異臭<br/>その他必要事項</td><td>1</td><td>1年</td><td>停止して外部の損傷腐食、過熱、油量、発錆、変形、ゆるみ、操作具合、機構<br/>付属装置の状態<br/>油の汚れ、必要によりその特性調査<br/>接地線接続部<br/>制御回路の機能</td><td>1</td><td>必要時</td><td>停止して内部につい<br/>て接触子の荒れ具合<br/>ゆるみ、変形、焼損、損傷</td><td>1</td><td>1年</td><td>絶縁抵抗測定<br/>接地抵抗測定<br/>絶縁油試験<br/>遮断器動作特性<br/>真空バルブの劣化測定<br/>保護離電器の動作特性試験<br/>ガス圧測定<br/>その他必要事項</td></tr><tr><td>2</td><td>毎月</td><td></td><td></td><td>1</td><td>1年</td><td></td><td>2</td><td>必要時</td><td>操作機構及び付属装<br/>置の各部点検<br/>遮断速度測定(開極<br/>投入時間最小動作電<br/>圧及び電流の測定を<br/>含む)</td><td>6</td><td>1年</td><td></td></tr><tr><td>母線</td><td>1</td><td>毎月</td><td>必要により特定部位<br/>のものについて行<br/>う。<br/>(点検箇所、ねらい<br/>は定期巡視点検より<br/>抜すい)<br/>その他必要事項</td><td>1</td><td>1年</td><td>母線の高さ、たるみ、<br/>他物との離隔距離、<br/>腐食、損傷、過熱<br/>接続部分、クランプ<br/>類の腐食、損傷、過<br/>熱、ゆるみ<br/>がいし類、支持物の<br/>腐食、損傷、変形、<br/>ゆるみ<br/>その他必要事項</td><td>1</td><td>必要時</td><td>必要により特定対象<br/>を定めて行う。<br/>(点検箇所、ねらい<br/>は定期巡視点検より<br/>抜すい)</td><td>1</td><td>1年</td><td>絶縁抵抗測定<br/>その他必要事項</td></tr><tr><td>備</td><td>2</td><td>毎月</td><td></td><td>3</td><td>1年</td><td></td><td>2</td><td>1年</td><td>その他必要事項</td><td></td><td></td><td></td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 6,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[97, 141, 888, 867]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 2,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 5.041306972503662,
+    "prompt_used": "<image>\n<|grounding|>Extract all content from this document including tables and text. For complex o..."
+  }
+}
