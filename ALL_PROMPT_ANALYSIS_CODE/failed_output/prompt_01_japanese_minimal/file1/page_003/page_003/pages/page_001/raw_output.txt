@@ -1,0 +1,7 @@
+<|ref|>image_caption<|/ref|><|det|>[[380, 148, 608, 163]]<|/det|>
+
+<|ref|>table<|/ref|><|det|>[[98, 170, 881, 553]]<|/det|>
+
+<|ref|>image_caption<|/ref|><|det|>[[323, 563, 660, 578]]<|/det|>
+
+<|ref|>table<|/ref|><|det|>[[98, 586, 881, 945]]<|/det|>

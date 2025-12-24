@@ -1,0 +1,321 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 19,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        88,
+        49,
+        916,
+        101
+      ],
+      "content": "<table><tr><td>電気事業法<br/>下野部工場 保安規程</td><td>分類<br/>番号</td><td>ページ 4/13</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[88, 49, 916, 101]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "sub_title",
+      "bbox": [
+        375,
+        141,
+        626,
+        161
+      ],
+      "content": "## 第6章 運転又は操作",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[375, 141, 626, 161]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "sub_title",
+      "bbox": [
+        108,
+        189,
+        263,
+        205
+      ],
+      "content": "### [運転又は操作等]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[108, 189, 263, 205]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        88,
+        211,
+        912,
+        249
+      ],
+      "content": "第19条 電気主任技術者は、平常時及び事故その他異常時における遮断器、開閉器、その他の機器の操作順序及び方法等について定める。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 211, 912, 249]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "bbox": [
+        118,
+        255,
+        912,
+        314
+      ],
+      "content": "2. 電気主任技術者若しくは代務者又は従業者は、事故その他異常が発生した場合には、あらかじめ定められた事故の軽重の区分に従い、所定の関係先に迅速に報告若しくは連絡し、又は指示を受け、適切な応急処置をとる。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[118, 255, 912, 314]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "bbox": [
+        118,
+        319,
+        888,
+        336
+      ],
+      "content": "3. 前項の連絡又は報告すべき事項並びに経路は、受電室その他見やすい場所に掲示しておく。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 16,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[118, 319, 888, 336]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        118,
+        341,
+        815,
+        358
+      ],
+      "content": "4. 受電用遮断器の操作にあたっては、電気事業者の事業所に必要に応じて連絡する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[118, 341, 815, 358]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "sub_title",
+      "bbox": [
+        375,
+        421,
+        622,
+        441
+      ],
+      "content": "## 第7章 長期間の保管",
+      "confidence": null,
+      "metadata": {
+        "line_number": 22,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[375, 421, 622, 441]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "sub_title",
+      "bbox": [
+        93,
+        469,
+        315,
+        485
+      ],
+      "content": "### [発電設備の長期間の保管]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 25,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[93, 469, 315, 485]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "bbox": [
+        88,
+        491,
+        814,
+        508
+      ],
+      "content": "第20条 発電設備を相当期間にわたり保管する場合には、次の措置等必要な対策を講じる。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 28,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 491, 814, 508]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "text",
+      "bbox": [
+        156,
+        513,
+        794,
+        530
+      ],
+      "content": "一 休止設備と運転設備の区分を明確にし、事故防止等に必要な対策を講じる。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 31,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[156, 513, 794, 530]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "bbox": [
+        156,
+        535,
+        759,
+        552
+      ],
+      "content": "二 主要機器の点検手入れを行い、必要箇所に防錆、防湿の対策を講じる。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 34,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[156, 535, 759, 552]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "sub_title",
+      "bbox": [
+        93,
+        579,
+        299,
+        595
+      ],
+      "content": "### [発電設備の運転の開始]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 37,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[93, 579, 299, 595]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "bbox": [
+        88,
+        600,
+        912,
+        638
+      ],
+      "content": "第21条 発電設備を相当期間にわたり保管する場合には、所定の点検を行うほか、必要に応じて試運転を行い、保安の確保に万全を期する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 40,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 600, 912, 638]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "sub_title",
+      "bbox": [
+        396,
+        658,
+        598,
+        678
+      ],
+      "content": "## 第8章 災害対策",
+      "confidence": null,
+      "metadata": {
+        "line_number": 43,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[396, 658, 598, 678]]<|/det|>"
+      }
+    },
+    {
+      "id": 16,
+      "type": "sub_title",
+      "bbox": [
+        108,
+        706,
+        208,
+        722
+      ],
+      "content": "### [防災体制]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 46,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[108, 706, 208, 722]]<|/det|>"
+      }
+    },
+    {
+      "id": 17,
+      "type": "text",
+      "bbox": [
+        88,
+        728,
+        908,
+        765
+      ],
+      "content": "第22条 非常災害時の他の災害に備えて、電気工作物の保安を確保するために適切な措置をとることができるような体制を整備しておく。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 49,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 728, 908, 765]]<|/det|>"
+      }
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "bbox": [
+        88,
+        793,
+        912,
+        830
+      ],
+      "content": "第23条 電気主任技術者は、非常災害発生時において、電気工作物に関する保安を確保するための指揮監督を行う。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 52,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 793, 912, 830]]<|/det|>"
+      }
+    },
+    {
+      "id": 19,
+      "type": "text",
+      "bbox": [
+        118,
+        836,
+        912,
+        873
+      ],
+      "content": "2. 電気主任技術者は、災害時の発生に伴い危険と認められるときは、直ちに当該範囲の送電を停止することができる。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 55,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[118, 836, 912, 873]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 19,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 4.552105903625488,
+    "prompt_used": "<image>\n<|grounding|>Extract text and tables. Mark unclear parts as images."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 3,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        93,
+        74,
+        885,
+        117
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[93, 74, 885, 117]]<|/det|>  "
+      }
+    },
+    {
+      "id": 2,
+      "type": "image",
+      "bbox": [
+        100,
+        171,
+        888,
+        595
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[100, 171, 888, 595]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "image_caption",
+      "bbox": [
+        325,
+        147,
+        666,
+        166
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>image_caption<|/ref|><|det|>[[325, 147, 666, 166]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 3,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 1.0993170738220215,
+    "prompt_used": "<image>\n<|grounding|>テキストと表を抽出。不明確な部分は画像として扱う。"
+  }
+}

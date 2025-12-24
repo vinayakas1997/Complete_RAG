@@ -1,0 +1,9 @@
+{
+  "input_file": "output\\prompt_08_english_conservative\\file2\\page_001\\temp\\page_001.png",
+  "page_count": 1,
+  "total_processing_time": 4.992407321929932,
+  "successful_pages": 1,
+  "total_elements": 22,
+  "model_used": "ollama_extractor",
+  "timestamp": "2025-12-24 14:51:29"
+}

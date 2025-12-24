@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 2,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "image_caption",
+      "bbox": [
+        325,
+        149,
+        664,
+        165
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>image_caption<|/ref|><|det|>[[325, 149, 664, 165]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "table",
+      "bbox": [
+        98,
+        172,
+        884,
+        593
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[98, 172, 884, 593]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 2,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 9.665618896484375,
+    "prompt_used": "<image>\n<|grounding|>テキストと表を抽出。"
+  }
+}

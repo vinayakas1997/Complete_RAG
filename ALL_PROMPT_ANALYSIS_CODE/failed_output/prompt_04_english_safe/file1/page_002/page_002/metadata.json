@@ -1,0 +1,9 @@
+{
+  "input_file": "output\\prompt_04_english_safe\\file1\\page_002\\temp\\page_002.png",
+  "page_count": 1,
+  "total_processing_time": 3.9240915775299072,
+  "successful_pages": 1,
+  "total_elements": 13,
+  "model_used": "ollama_extractor",
+  "timestamp": "2025-12-24 14:48:48"
+}

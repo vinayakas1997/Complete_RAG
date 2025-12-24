@@ -1,0 +1,81 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 4,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "image_caption",
+      "bbox": [
+        380,
+        148,
+        608,
+        163
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>image_caption<|/ref|><|det|>[[380, 148, 608, 163]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "table",
+      "bbox": [
+        98,
+        169,
+        881,
+        553
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[98, 169, 881, 553]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "image_caption",
+      "bbox": [
+        324,
+        562,
+        660,
+        577
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>image_caption<|/ref|><|det|>[[324, 562, 660, 577]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "table",
+      "bbox": [
+        98,
+        586,
+        881,
+        945
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[98, 586, 881, 945]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 4,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 1.249842882156372,
+    "prompt_used": "<image>\n<|grounding|>明確な要素のみ抽出。"
+  }
+}

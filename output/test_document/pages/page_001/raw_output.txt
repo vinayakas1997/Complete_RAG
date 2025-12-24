@@ -1,8 +1,0 @@
-<|ref|>title<|/ref|><|det|>[[72, 112, 677, 174]]<|/det|>
-Test Document - OCR System 
-
-<|ref|>table<|/ref|><|det|>[[60, 249, 940, 753]]<|/det|>
-<table><tr><td>Column 1</td><td>Column 2</td></tr><tr><td>Test Data 1</td><td>Test Data 2</td></tr></table>
-
-<|ref|>text<|/ref|><|det|>[[72, 804, 663, 846]]<|/det|>
-This is a test document for OCR processing.

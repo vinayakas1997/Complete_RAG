@@ -25,8 +25,10 @@ print("="*80)
 # YOUR_FILE = r"dont_send/02AC001(1)：下野部工場　機密区域管理要領_single_3.pdf"
 # YOUR_FILE = r"dont_send\M1-AM-STB3-25001-single-page(1).pdf"
 # BASE_OUTPUT_DIR = "prompt_analysis5_complete_file_shimo1_baseline_4_prompts"  # Dynamic folders will be created
-YOUR_FILE = r"dont_send\test_files\21AC001：電気事業法　下野部工場保安規程\21AC001(2)：電気事業法　下野部工場保安規程.pdf"
-BASE_OUTPUT_DIR = "prompt_analysis8_shimonobe_file2"
+# YOUR_FILE = r"dont_send\test_files\21AC001：電気事業法　下野部工場保安規程\21AC001(2)：電気事業法　下野部工場保安規程.pdf"
+# BASE_OUTPUT_DIR = "prompt_analysis8_shimonobe_file2"
+YOUR_FILE = r"ALL_PROMPT_ANALYSIS_CODE\file3.pdf"
+BASE_OUTPUT_DIR = "file3_output"
 # ==============================================
 
 # ========== PROMPTS TO TEST ==========

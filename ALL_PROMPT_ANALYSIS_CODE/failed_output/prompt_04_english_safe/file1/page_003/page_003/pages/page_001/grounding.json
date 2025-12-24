@@ -1,0 +1,81 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 4,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "image",
+      "bbox": [
+        96,
+        71,
+        895,
+        120
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[96, 71, 895, 120]]<|/det|>  "
+      }
+    },
+    {
+      "id": 2,
+      "type": "image",
+      "bbox": [
+        98,
+        169,
+        890,
+        555
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[98, 169, 890, 555]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "image_caption",
+      "bbox": [
+        323,
+        561,
+        664,
+        579
+      ],
+      "content": "<center>征業員の機密区域内摄影時のフロー</center>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>image_caption<|/ref|><|det|>[[323, 561, 664, 579]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "image",
+      "bbox": [
+        98,
+        586,
+        890,
+        948
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[98, 586, 890, 948]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 4,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 1.33235502243042,
+    "prompt_used": "<image>\n<|grounding|>Extract text and tables. Mark unclear parts as images."
+  }
+}

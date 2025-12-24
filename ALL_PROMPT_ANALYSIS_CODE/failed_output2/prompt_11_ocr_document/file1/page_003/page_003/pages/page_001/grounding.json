@@ -1,0 +1,849 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 52,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "下野部工場機密区域管理要领",
+      "bbox": [
+        94,
+        87,
+        347,
+        102
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>下野部工場機密区域管理要领<|/ref|><|det|>[[94, 87, 347, 102]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "付図1",
+      "bbox": [
+        480,
+        90,
+        534,
+        106
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 2,
+        "raw_line": "<|ref|>付図1<|/ref|><|det|>[[480, 90, 534, 106]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "分類",
+      "bbox": [
+        634,
+        79,
+        680,
+        94
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>分類<|/ref|><|det|>[[634, 79, 680, 94]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "番号",
+      "bbox": [
+        634,
+        97,
+        680,
+        113
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>番号<|/ref|><|det|>[[634, 97, 680, 113]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "02AC001(1)",
+      "bbox": [
+        719,
+        77,
+        874,
+        94
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>02AC001(1)<|/ref|><|det|>[[719, 77, 874, 94]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "3/4",
+      "bbox": [
+        769,
+        99,
+        839,
+        113
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 6,
+        "raw_line": "<|ref|>3/4<|/ref|><|det|>[[769, 99, 839, 113]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "社外者の入退場時の口一",
+      "bbox": [
+        382,
+        147,
+        605,
+        162
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>社外者の入退場時の口一<|/ref|><|det|>[[382, 147, 605, 162]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "社外者",
+      "bbox": [
+        189,
+        182,
+        244,
+        201
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 8,
+        "raw_line": "<|ref|>社外者<|/ref|><|det|>[[189, 182, 244, 201]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "受入担当者",
+      "bbox": [
+        364,
+        183,
+        450,
+        201
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>受入担当者<|/ref|><|det|>[[364, 183, 450, 201]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "部門の役者（GL、班長以上）",
+      "bbox": [
+        519,
+        191,
+        689,
+        206
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>部門の役者（GL、班長以上）<|/ref|><|det|>[[519, 191, 689, 206]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "受入担当者が所属寸",
+      "bbox": [
+        529,
+        181,
+        664,
+        194
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 11,
+        "raw_line": "<|ref|>受入担当者が所属寸<|/ref|><|det|>[[529, 181, 664, 194]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "帐票·证弥",
+      "bbox": [
+        759,
+        183,
+        839,
+        201
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 12,
+        "raw_line": "<|ref|>帐票·证弥<|/ref|><|det|>[[759, 183, 839, 201]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "入場の許可申請",
+      "bbox": [
+        359,
+        215,
+        464,
+        230
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>入場の許可申請<|/ref|><|det|>[[359, 215, 464, 230]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "（口頭·一儿可）",
+      "bbox": [
+        359,
+        228,
+        464,
+        241
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 14,
+        "raw_line": "<|ref|>（口頭·一儿可）<|/ref|><|det|>[[359, 228, 464, 241]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "入場許可",
+      "bbox": [
+        559,
+        266,
+        614,
+        281
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 15,
+        "raw_line": "<|ref|>入場許可<|/ref|><|det|>[[559, 266, 614, 281]]<|/det|>"
+      }
+    },
+    {
+      "id": 16,
+      "type": "（口頭·一儿可）",
+      "bbox": [
+        549,
+        279,
+        644,
+        293
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 16,
+        "raw_line": "<|ref|>（口頭·一儿可）<|/ref|><|det|>[[549, 279, 644, 293]]<|/det|>"
+      }
+    },
+    {
+      "id": 17,
+      "type": "入場許可の云達",
+      "bbox": [
+        364,
+        309,
+        464,
+        323
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 17,
+        "raw_line": "<|ref|>入場許可の云達<|/ref|><|det|>[[364, 309, 464, 323]]<|/det|>"
+      }
+    },
+    {
+      "id": 18,
+      "type": "腕章·入退場許可",
+      "bbox": [
+        359,
+        321,
+        464,
+        336
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 18,
+        "raw_line": "<|ref|>腕章·入退場許可<|/ref|><|det|>[[359, 321, 464, 336]]<|/det|>"
+      }
+    },
+    {
+      "id": 19,
+      "type": "证貸与",
+      "bbox": [
+        384,
+        335,
+        429,
+        349
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>证貸与<|/ref|><|det|>[[384, 335, 429, 349]]<|/det|>"
+      }
+    },
+    {
+      "id": 20,
+      "type": "社外者入退場記绿表",
+      "bbox": [
+        739,
+        357,
+        869,
+        371
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 20,
+        "raw_line": "<|ref|>社外者入退場記绿表<|/ref|><|det|>[[739, 357, 869, 371]]<|/det|>"
+      }
+    },
+    {
+      "id": 21,
+      "type": "010508-3",
+      "bbox": [
+        764,
+        369,
+        839,
+        381
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 21,
+        "raw_line": "<|ref|>010508-3<|/ref|><|det|>[[764, 369, 839, 381]]<|/det|>"
+      }
+    },
+    {
+      "id": 22,
+      "type": "入場時間等記载",
+      "bbox": [
+        149,
+        377,
+        259,
+        391
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 22,
+        "raw_line": "<|ref|>入場時間等記载<|/ref|><|det|>[[149, 377, 259, 391]]<|/det|>"
+      }
+    },
+    {
+      "id": 23,
+      "type": "（下野部工場仁",
+      "bbox": [
+        749,
+        379,
+        859,
+        393
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 23,
+        "raw_line": "<|ref|>（下野部工場仁<|/ref|><|det|>[[749, 379, 859, 393]]<|/det|>"
+      }
+    },
+    {
+      "id": 24,
+      "type": "保管）",
+      "bbox": [
+        779,
+        391,
+        815,
+        403
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 24,
+        "raw_line": "<|ref|>保管）<|/ref|><|det|>[[779, 391, 815, 403]]<|/det|>"
+      }
+    },
+    {
+      "id": 25,
+      "type": "入場退場",
+      "bbox": [
+        169,
+        408,
+        239,
+        422
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 25,
+        "raw_line": "<|ref|>入場退場<|/ref|><|det|>[[169, 408, 239, 422]]<|/det|>"
+      }
+    },
+    {
+      "id": 26,
+      "type": "腕章·入退場許可证",
+      "bbox": [
+        139,
+        420,
+        264,
+        435
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 26,
+        "raw_line": "<|ref|>腕章·入退場許可证<|/ref|><|det|>[[139, 420, 264, 435]]<|/det|>"
+      }
+    },
+    {
+      "id": 27,
+      "type": "装着",
+      "bbox": [
+        189,
+        433,
+        224,
+        448
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 27,
+        "raw_line": "<|ref|>装着<|/ref|><|det|>[[189, 433, 224, 448]]<|/det|>"
+      }
+    },
+    {
+      "id": 28,
+      "type": "退場時間記载",
+      "bbox": [
+        154,
+        453,
+        254,
+        467
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 28,
+        "raw_line": "<|ref|>退場時間記载<|/ref|><|det|>[[154, 453, 254, 467]]<|/det|>"
+      }
+    },
+    {
+      "id": 29,
+      "type": "腕章·入場許可证",
+      "bbox": [
+        149,
+        465,
+        259,
+        480
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 29,
+        "raw_line": "<|ref|>腕章·入場許可证<|/ref|><|det|>[[149, 465, 259, 480]]<|/det|>"
+      }
+    },
+    {
+      "id": 30,
+      "type": "返却",
+      "bbox": [
+        189,
+        479,
+        224,
+        490
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 30,
+        "raw_line": "<|ref|>返却<|/ref|><|det|>[[189, 479, 224, 490]]<|/det|>"
+      }
+    },
+    {
+      "id": 31,
+      "type": "記載内容漏無確",
+      "bbox": [
+        404,
+        515,
+        599,
+        529
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 31,
+        "raw_line": "<|ref|>記載内容漏無確<|/ref|><|det|>[[404, 515, 599, 529]]<|/det|>"
+      }
+    },
+    {
+      "id": 32,
+      "type": "=「確記入担当者許可者の名前記载",
+      "bbox": [
+        374,
+        529,
+        644,
+        542
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 32,
+        "raw_line": "<|ref|>=「確記入担当者許可者の名前記载<|/ref|><|det|>[[374, 529, 644, 542]]<|/det|>"
+      }
+    },
+    {
+      "id": 33,
+      "type": "業員の機密区域内影時口一",
+      "bbox": [
+        324,
+        560,
+        660,
+        575
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 33,
+        "raw_line": "<|ref|>業員の機密区域内影時口一<|/ref|><|det|>[[324, 560, 660, 575]]<|/det|>"
+      }
+    },
+    {
+      "id": 34,
+      "type": "影行業員",
+      "bbox": [
+        229,
+        597,
+        354,
+        612
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 34,
+        "raw_line": "<|ref|>影行業員<|/ref|><|det|>[[229, 597, 354, 612]]<|/det|>"
+      }
+    },
+    {
+      "id": 35,
+      "type": "部門の役者（GL、班長以上）",
+      "bbox": [
+        519,
+        605,
+        689,
+        619
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 35,
+        "raw_line": "<|ref|>部門の役者（GL、班長以上）<|/ref|><|det|>[[519, 605, 689, 619]]<|/det|>"
+      }
+    },
+    {
+      "id": 36,
+      "type": "受入担当者が所属寸",
+      "bbox": [
+        529,
+        595,
+        664,
+        608
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 36,
+        "raw_line": "<|ref|>受入担当者が所属寸<|/ref|><|det|>[[529, 595, 664, 608]]<|/det|>"
+      }
+    },
+    {
+      "id": 37,
+      "type": "帐票·证弥",
+      "bbox": [
+        759,
+        597,
+        839,
+        612
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 37,
+        "raw_line": "<|ref|>帐票·证弥<|/ref|><|det|>[[759, 597, 839, 612]]<|/det|>"
+      }
+    },
+    {
+      "id": 38,
+      "type": "影許可申請",
+      "bbox": [
+        229,
+        630,
+        334,
+        643
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 38,
+        "raw_line": "<|ref|>影許可申請<|/ref|><|det|>[[229, 630, 334, 643]]<|/det|>"
+      }
+    },
+    {
+      "id": 39,
+      "type": "（口頭·一儿可）",
+      "bbox": [
+        229,
+        642,
+        334,
+        657
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 39,
+        "raw_line": "<|ref|>（口頭·一儿可）<|/ref|><|det|>[[229, 642, 334, 657]]<|/det|>"
+      }
+    },
+    {
+      "id": 40,
+      "type": "影許可",
+      "bbox": [
+        559,
+        679,
+        614,
+        693
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 40,
+        "raw_line": "<|ref|>影許可<|/ref|><|det|>[[559, 679, 614, 693]]<|/det|>"
+      }
+    },
+    {
+      "id": 41,
+      "type": "（口頭·一儿可）",
+      "bbox": [
+        549,
+        691,
+        644,
+        706
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 41,
+        "raw_line": "<|ref|>（口頭·一儿可）<|/ref|><|det|>[[549, 691, 644, 706]]<|/det|>"
+      }
+    },
+    {
+      "id": 42,
+      "type": "出日時等の記载",
+      "bbox": [
+        229,
+        732,
+        349,
+        747
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 42,
+        "raw_line": "<|ref|>出日時等の記载<|/ref|><|det|>[[229, 732, 349, 747]]<|/det|>"
+      }
+    },
+    {
+      "id": 43,
+      "type": "部門の影機器/腕章借。",
+      "bbox": [
+        189,
+        770,
+        379,
+        784
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 43,
+        "raw_line": "<|ref|>部門の影機器/腕章借。<|/ref|><|det|>[[189, 770, 379, 784]]<|/det|>"
+      }
+    },
+    {
+      "id": 44,
+      "type": "影機器等",
+      "bbox": [
+        759,
+        784,
+        839,
+        799
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 44,
+        "raw_line": "<|ref|>影機器等<|/ref|><|det|>[[759, 784, 839, 799]]<|/det|>"
+      }
+    },
+    {
+      "id": 45,
+      "type": "貸出台帐",
+      "bbox": [
+        764,
+        796,
+        829,
+        808
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 45,
+        "raw_line": "<|ref|>貸出台帐<|/ref|><|det|>[[764, 796, 829, 808]]<|/det|>"
+      }
+    },
+    {
+      "id": 46,
+      "type": "腕章装着/影实施",
+      "bbox": [
+        224,
+        806,
+        354,
+        820
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 46,
+        "raw_line": "<|ref|>腕章装着/影实施<|/ref|><|det|>[[224, 806, 354, 820]]<|/det|>"
+      }
+    },
+    {
+      "id": 47,
+      "type": "01V003-6",
+      "bbox": [
+        764,
+        808,
+        829,
+        819
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 47,
+        "raw_line": "<|ref|>01V003-6<|/ref|><|det|>[[764, 808, 829, 819]]<|/det|>"
+      }
+    },
+    {
+      "id": 48,
+      "type": "（各部門仁",
+      "bbox": [
+        759,
+        819,
+        839,
+        833
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 48,
+        "raw_line": "<|ref|>（各部門仁<|/ref|><|det|>[[759, 819, 839, 833]]<|/det|>"
+      }
+    },
+    {
+      "id": 49,
+      "type": "保管）",
+      "bbox": [
+        779,
+        831,
+        815,
+        843
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 49,
+        "raw_line": "<|ref|>保管）<|/ref|><|det|>[[779, 831, 815, 843]]<|/det|>"
+      }
+    },
+    {
+      "id": 50,
+      "type": "影機器内の一夕削除",
+      "bbox": [
+        209,
+        843,
+        364,
+        858
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 50,
+        "raw_line": "<|ref|>影機器内の一夕削除<|/ref|><|det|>[[209, 843, 364, 858]]<|/det|>"
+      }
+    },
+    {
+      "id": 51,
+      "type": "腕章/影機器の返却",
+      "bbox": [
+        219,
+        882,
+        359,
+        896
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 51,
+        "raw_line": "<|ref|>腕章/影機器の返却<|/ref|><|det|>[[219, 882, 359, 896]]<|/det|>"
+      }
+    },
+    {
+      "id": 52,
+      "type": "返却日時等の記载",
+      "bbox": [
+        229,
+        919,
+        349,
+        933
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 52,
+        "raw_line": "<|ref|>返却日時等の記载<|/ref|><|det|>[[229, 919, 349, 933]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 52,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 5.989327669143677,
+    "prompt_used": "<image>\n<|grounding|>OCR this image."
+  }
+}

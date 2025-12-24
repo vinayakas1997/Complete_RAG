@@ -1,0 +1,609 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 37,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "承認",
+      "bbox": [
+        94,
+        74,
+        146,
+        89
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>承認<|/ref|><|det|>[[94, 74, 146, 89]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "密查",
+      "bbox": [
+        161,
+        74,
+        214,
+        89
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 2,
+        "raw_line": "<|ref|>密查<|/ref|><|det|>[[161, 74, 214, 89]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "起案",
+      "bbox": [
+        229,
+        74,
+        282,
+        89
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>起案<|/ref|><|det|>[[229, 74, 282, 89]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "下野部工場機密区域管理领",
+      "bbox": [
+        319,
+        81,
+        586,
+        95
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>下野部工場機密区域管理领<|/ref|><|det|>[[319, 81, 586, 95]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "分類",
+      "bbox": [
+        624,
+        70,
+        675,
+        86
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>分類<|/ref|><|det|>[[624, 70, 675, 86]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "02AC001(1)",
+      "bbox": [
+        709,
+        70,
+        864,
+        85
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 6,
+        "raw_line": "<|ref|>02AC001(1)<|/ref|><|det|>[[709, 70, 864, 85]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "番号",
+      "bbox": [
+        624,
+        90,
+        675,
+        106
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>番号<|/ref|><|det|>[[624, 90, 675, 106]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "1/4",
+      "bbox": [
+        709,
+        91,
+        819,
+        106
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 8,
+        "raw_line": "<|ref|>1/4<|/ref|><|det|>[[709, 91, 819, 106]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "主管部門：下野部工場",
+      "bbox": [
+        374,
+        119,
+        556,
+        134
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>主管部門：下野部工場<|/ref|><|det|>[[374, 119, 556, 134]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "制定",
+      "bbox": [
+        624,
+        109,
+        675,
+        125
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>制定<|/ref|><|det|>[[624, 109, 675, 125]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "2021年8月26日",
+      "bbox": [
+        719,
+        110,
+        859,
+        125
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 11,
+        "raw_line": "<|ref|>2021年8月26日<|/ref|><|det|>[[719, 110, 859, 125]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "改訂",
+      "bbox": [
+        624,
+        129,
+        675,
+        144
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 12,
+        "raw_line": "<|ref|>改訂<|/ref|><|det|>[[624, 129, 675, 144]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "年月日",
+      "bbox": [
+        749,
+        129,
+        834,
+        144
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>年月日<|/ref|><|det|>[[749, 129, 834, 144]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "1.",
+      "bbox": [
+        89,
+        165,
+        161,
+        183
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 14,
+        "raw_line": "<|ref|>1.<|/ref|><|det|>[[89, 165, 161, 183]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "（1）の要领、企業機密管理定（01V003）定の「6.3外部者の退場管理」、「6.4機密",
+      "bbox": [
+        99,
+        197,
+        899,
+        212
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 15,
+        "raw_line": "<|ref|>（1）の要领、企業機密管理定（01V003）定の「6.3外部者の退場管理」、「6.4機密<|/ref|><|det|>[[99, 197, 899, 212]]<|/det|>"
+      }
+    },
+    {
+      "id": 16,
+      "type": "区域内の影各项目、下野部工場主管の区域の企業員遵守",
+      "bbox": [
+        139,
+        219,
+        901,
+        234
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 16,
+        "raw_line": "<|ref|>区域内の影各项目、下野部工場主管の区域の企業員遵守<|/ref|><|det|>[[139, 219, 901, 234]]<|/det|>"
+      }
+    },
+    {
+      "id": 17,
+      "type": "細定。",
+      "bbox": [
+        137,
+        242,
+        234,
+        257
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 17,
+        "raw_line": "<|ref|>細定。<|/ref|><|det|>[[137, 242, 234, 257]]<|/det|>"
+      }
+    },
+    {
+      "id": 18,
+      "type": "（2）下野部工場主管の機密区域、社内一内の以下の指定図参照。",
+      "bbox": [
+        99,
+        272,
+        789,
+        286
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 18,
+        "raw_line": "<|ref|>（2）下野部工場主管の機密区域、社内一内の以下の指定図参照。<|/ref|><|det|>[[99, 272, 789, 286]]<|/det|>"
+      }
+    },
+    {
+      "id": 19,
+      "type": "配置場所：全社一>企業機密管理>機密区域指定",
+      "bbox": [
+        154,
+        302,
+        805,
+        316
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>配置場所：全社一>企業機密管理>機密区域指定<|/ref|><|det|>[[154, 302, 805, 316]]<|/det|>"
+      }
+    },
+    {
+      "id": 20,
+      "type": "2.機密区域の入退場管理",
+      "bbox": [
+        91,
+        360,
+        334,
+        374
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 20,
+        "raw_line": "<|ref|>2.機密区域の入退場管理<|/ref|><|det|>[[91, 360, 334, 374]]<|/det|>"
+      }
+    },
+    {
+      "id": 21,
+      "type": "①事前受担当者所属部役職者（直接部門班長以上、間接部門GL以",
+      "bbox": [
+        129,
+        389,
+        901,
+        404
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 21,
+        "raw_line": "<|ref|>①事前受担当者所属部役職者（直接部門班長以上、間接部門GL以<|/ref|><|det|>[[129, 389, 901, 404]]<|/det|>"
+      }
+    },
+    {
+      "id": 22,
+      "type": "上）外者入場許可（口頭·一）得。",
+      "bbox": [
+        159,
+        412,
+        609,
+        427
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 22,
+        "raw_line": "<|ref|>上）外者入場許可（口頭·一）得。<|/ref|><|det|>[[159, 412, 609, 427]]<|/det|>"
+      }
+    },
+    {
+      "id": 23,
+      "type": "※連絡受班長·組長·GL速集中課長·室長連絡。",
+      "bbox": [
+        157,
+        434,
+        736,
+        449
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 23,
+        "raw_line": "<|ref|>※連絡受班長·組長·GL速集中課長·室長連絡。<|/ref|><|det|>[[157, 434, 736, 449]]<|/det|>"
+      }
+    },
+    {
+      "id": 24,
+      "type": "錄残。",
+      "bbox": [
+        154,
+        486,
+        239,
+        501
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 25,
+        "raw_line": "<|ref|>錄残。<|/ref|><|det|>[[154, 486, 239, 501]]<|/det|>"
+      }
+    },
+    {
+      "id": 25,
+      "type": "。",
+      "bbox": [
+        154,
+        539,
+        184,
+        555
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 27,
+        "raw_line": "<|ref|>。<|/ref|><|det|>[[154, 539, 184, 555]]<|/det|>"
+      }
+    },
+    {
+      "id": 26,
+      "type": "③社外者打合、機密区域外、力2、第1会室、面室1、面室2行",
+      "bbox": [
+        129,
+        569,
+        904,
+        584
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 28,
+        "raw_line": "<|ref|>③社外者打合、機密区域外、力2、第1会室、面室1、面室2行<|/ref|><|det|>[[129, 569, 904, 584]]<|/det|>"
+      }
+    },
+    {
+      "id": 27,
+      "type": "、の他打合禁止。",
+      "bbox": [
+        154,
+        591,
+        504,
+        606
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 29,
+        "raw_line": "<|ref|>、の他打合禁止。<|/ref|><|det|>[[154, 591, 504, 606]]<|/det|>"
+      }
+    },
+    {
+      "id": 28,
+      "type": "④社外者資材搬入等一卜内（機密区域外）立場合、関係者以外",
+      "bbox": [
+        129,
+        621,
+        905,
+        636
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 30,
+        "raw_line": "<|ref|>④社外者資材搬入等一卜内（機密区域外）立場合、関係者以外<|/ref|><|det|>[[129, 621, 905, 636]]<|/det|>"
+      }
+    },
+    {
+      "id": 29,
+      "type": "立禁止の表示超機密区域内立、事前社外者除。",
+      "bbox": [
+        154,
+        644,
+        819,
+        659
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 31,
+        "raw_line": "<|ref|>立禁止の表示超機密区域内立、事前社外者除。<|/ref|><|det|>[[154, 644, 819, 659]]<|/det|>"
+      }
+    },
+    {
+      "id": 30,
+      "type": "3.企業機密管理定定、包括許可、都度許可及記除業者除。",
+      "bbox": [
+        84,
+        674,
+        889,
+        689
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 32,
+        "raw_line": "<|ref|>3.企業機密管理定定、包括許可、都度許可及記除業者除。<|/ref|><|det|>[[84, 674, 889, 689]]<|/det|>"
+      }
+    },
+    {
+      "id": 31,
+      "type": "3.企業員機密区域の影·錄音の管理",
+      "bbox": [
+        84,
+        732,
+        484,
+        747
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 33,
+        "raw_line": "<|ref|>3.企業員機密区域の影·錄音の管理<|/ref|><|det|>[[84, 732, 484, 747]]<|/det|>"
+      }
+    },
+    {
+      "id": 32,
+      "type": "①業務目的以外の影·錄音禁止。",
+      "bbox": [
+        129,
+        763,
+        479,
+        778
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 34,
+        "raw_line": "<|ref|>①業務目的以外の影·錄音禁止。<|/ref|><|det|>[[129, 763, 479, 778]]<|/det|>"
+      }
+    },
+    {
+      "id": 33,
+      "type": "②影者所属部門役者（直接部門班長以上、間接部門GL以上）事前",
+      "bbox": [
+        129,
+        793,
+        905,
+        808
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 35,
+        "raw_line": "<|ref|>②影者所属部門役者（直接部門班長以上、間接部門GL以上）事前<|/ref|><|det|>[[129, 793, 905, 808]]<|/det|>"
+      }
+    },
+    {
+      "id": 34,
+      "type": "許可得。",
+      "bbox": [
+        157,
+        815,
+        279,
+        830
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 36,
+        "raw_line": "<|ref|>許可得。<|/ref|><|det|>[[157, 815, 279, 830]]<|/det|>"
+      }
+    },
+    {
+      "id": 35,
+      "type": "③会社指定の目印の影機器等使用、個人の携帯·の影禁止。",
+      "bbox": [
+        129,
+        845,
+        864,
+        860
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 37,
+        "raw_line": "<|ref|>③会社指定の目印の影機器等使用、個人の携帯·の影禁止。<|/ref|><|det|>[[129, 845, 864, 860]]<|/det|>"
+      }
+    },
+    {
+      "id": 36,
+      "type": "④影機器等の出、影機器等出記録台帐（01V003-6）（記録。",
+      "bbox": [
+        129,
+        875,
+        824,
+        889
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 38,
+        "raw_line": "<|ref|>④影機器等の出、影機器等出記録台帐（01V003-6）（記録。<|/ref|><|det|>[[129, 875, 824, 889]]<|/det|>"
+      }
+    },
+    {
+      "id": 37,
+      "type": "5影許可者、影時「腕章着用。",
+      "bbox": [
+        129,
+        905,
+        516,
+        919
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 39,
+        "raw_line": "<|ref|>5影許可者、影時「腕章着用。<|/ref|><|det|>[[129, 905, 516, 919]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 37,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 8.008316278457642,
+    "prompt_used": "<image>\n<|grounding|>OCR this image."
+  }
+}

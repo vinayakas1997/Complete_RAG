@@ -1,0 +1,9 @@
+{
+  "input_file": "output2\\prompt_09_markdown_convert\\file1\\page_004\\temp\\page_004.png",
+  "page_count": 1,
+  "total_processing_time": 9.676240921020508,
+  "successful_pages": 1,
+  "total_elements": 3,
+  "model_used": "ollama_extractor",
+  "timestamp": "2025-12-24 15:33:22"
+}

@@ -1,0 +1,9 @@
+{
+  "input_file": "output2\\prompt_11_ocr_document\\file1\\page_001\\temp\\page_001.png",
+  "page_count": 1,
+  "total_processing_time": 8.336256742477417,
+  "successful_pages": 1,
+  "total_elements": 37,
+  "model_used": "ollama_extractor",
+  "timestamp": "2025-12-24 15:31:59"
+}

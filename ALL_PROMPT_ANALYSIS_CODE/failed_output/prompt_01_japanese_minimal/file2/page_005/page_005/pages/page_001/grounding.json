@@ -1,0 +1,385 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 23,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        88,
+        53,
+        907,
+        99
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[88, 53, 907, 99]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "image_caption",
+      "bbox": [
+        423,
+        121,
+        574,
+        138
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>image_caption<|/ref|><|det|>[[423, 121, 574, 138]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "title",
+      "bbox": [
+        108,
+        168,
+        207,
+        183
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[108, 168, 207, 183]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        88,
+        190,
+        907,
+        226
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 190, 907, 226]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "bbox": [
+        143,
+        234,
+        300,
+        247
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[143, 234, 300, 247]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "bbox": [
+        143,
+        255,
+        437,
+        268
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 11,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[143, 255, 437, 268]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        143,
+        277,
+        298,
+        290
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[143, 277, 298, 290]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "bbox": [
+        143,
+        298,
+        374,
+        311
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 15,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[143, 298, 374, 311]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "bbox": [
+        143,
+        319,
+        386,
+        332
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 17,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[143, 319, 386, 332]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "bbox": [
+        143,
+        340,
+        347,
+        353
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[143, 340, 347, 353]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "title",
+      "bbox": [
+        373,
+        378,
+        621,
+        396
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 21,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[373, 378, 621, 396]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "title",
+      "bbox": [
+        108,
+        425,
+        218,
+        439
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 23,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[108, 425, 218, 439]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "text",
+      "bbox": [
+        88,
+        447,
+        907,
+        482
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 25,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 447, 907, 482]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "title",
+      "bbox": [
+        108,
+        511,
+        258,
+        524
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 27,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[108, 511, 258, 524]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "text",
+      "bbox": [
+        88,
+        532,
+        526,
+        546
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 29,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 532, 526, 546]]<|/det|>"
+      }
+    },
+    {
+      "id": 16,
+      "type": "title",
+      "bbox": [
+        108,
+        575,
+        218,
+        588
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 31,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[108, 575, 218, 588]]<|/det|>"
+      }
+    },
+    {
+      "id": 17,
+      "type": "text",
+      "bbox": [
+        88,
+        596,
+        917,
+        631
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 33,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 596, 917, 631]]<|/det|>"
+      }
+    },
+    {
+      "id": 18,
+      "type": "title",
+      "bbox": [
+        108,
+        660,
+        273,
+        673
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 35,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[108, 660, 273, 673]]<|/det|>"
+      }
+    },
+    {
+      "id": 19,
+      "type": "text",
+      "bbox": [
+        88,
+        681,
+        707,
+        695
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 37,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 681, 707, 695]]<|/det|>"
+      }
+    },
+    {
+      "id": 20,
+      "type": "title",
+      "bbox": [
+        108,
+        724,
+        273,
+        737
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 39,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[108, 724, 273, 737]]<|/det|>"
+      }
+    },
+    {
+      "id": 21,
+      "type": "text",
+      "bbox": [
+        88,
+        745,
+        904,
+        759
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 41,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 745, 904, 759]]<|/det|>"
+      }
+    },
+    {
+      "id": 22,
+      "type": "title",
+      "bbox": [
+        108,
+        788,
+        273,
+        801
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 43,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[108, 788, 273, 801]]<|/det|>"
+      }
+    },
+    {
+      "id": 23,
+      "type": "text",
+      "bbox": [
+        88,
+        809,
+        907,
+        844
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 45,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 809, 907, 844]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 23,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 11.08245587348938,
+    "prompt_used": "<image>\n<|grounding|>テキストと表を抽出。"
+  }
+}

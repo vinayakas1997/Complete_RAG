@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 1,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "image",
+      "bbox": [
+        100,
+        167,
+        888,
+        595
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[100, 167, 888, 595]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 1,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 1.0720593929290771,
+    "prompt_used": "<image>\n<|grounding|>Convert the document to markdown. Include all table structures."
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 24,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "下野部工場機密区域管理要领",
+      "bbox": [
+        97,
+        87,
+        347,
+        102
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>下野部工場機密区域管理要领<|/ref|><|det|>[[97, 87, 347, 102]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "付図1",
+      "bbox": [
+        479,
+        90,
+        536,
+        108
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 2,
+        "raw_line": "<|ref|>付図1<|/ref|><|det|>[[479, 90, 536, 108]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "分類",
+      "bbox": [
+        630,
+        80,
+        684,
+        98
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>分類<|/ref|><|det|>[[630, 80, 684, 98]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "番号",
+      "bbox": [
+        630,
+        98,
+        684,
+        116
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>番号<|/ref|><|det|>[[630, 98, 684, 116]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "02AC001(1)",
+      "bbox": [
+        719,
+        80,
+        874,
+        97
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>02AC001(1)<|/ref|><|det|>[[719, 80, 874, 97]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "一二2/4",
+      "bbox": [
+        719,
+        101,
+        834,
+        115
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 6,
+        "raw_line": "<|ref|>一二2/4<|/ref|><|det|>[[719, 101, 834, 115]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "6",
+      "bbox": [
+        139,
+        145,
+        164,
+        157
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>6<|/ref|><|det|>[[139, 145, 164, 157]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "摄影機器等の返却時、摄影機器内の一夕削除返却。",
+      "bbox": [
+        159,
+        143,
+        684,
+        158
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 8,
+        "raw_line": "<|ref|>摄影機器等の返却時、摄影機器内の一夕削除返却。<|/ref|><|det|>[[159, 143, 684, 158]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "4.社外者機密区域の影·音の管理",
+      "bbox": [
+        94,
+        205,
+        485,
+        219
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>4.社外者機密区域の影·音の管理<|/ref|><|det|>[[94, 205, 485, 219]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "①事前影社業員所属役職者（直接部門班長以上、間接部門GL以",
+      "bbox": [
+        134,
+        235,
+        886,
+        249
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>①事前影社業員所属役職者（直接部門班長以上、間接部門GL以<|/ref|><|det|>[[134, 235, 886, 249]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "上）の許可得。",
+      "bbox": [
+        164,
+        258,
+        319,
+        272
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 11,
+        "raw_line": "<|ref|>上）の許可得。<|/ref|><|det|>[[164, 258, 319, 272]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "※連絡受班長·組長·GL速課長·室長連絡。",
+      "bbox": [
+        164,
+        280,
+        734,
+        294
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 12,
+        "raw_line": "<|ref|>※連絡受班長·組長·GL速課長·室長連絡。<|/ref|><|det|>[[164, 280, 734, 294]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "②工事業者影行場合、安全確作業（作業終了時）实施報告書",
+      "bbox": [
+        134,
+        310,
+        789,
+        325
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>②工事業者影行場合、安全確作業（作業終了時）实施報告書<|/ref|><|det|>[[134, 310, 789, 325]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "（01C508-2）影氏名·社名·所属部署、影目的·对象·日時記録。",
+      "bbox": [
+        174,
+        333,
+        819,
+        347
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 14,
+        "raw_line": "<|ref|>（01C508-2）影氏名·社名·所属部署、影目的·对象·日時記録。<|/ref|><|det|>[[174, 333, 819, 347]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "③の他社外者影行場合、社外者入退場記録表記録残。",
+      "bbox": [
+        134,
+        363,
+        754,
+        377
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 15,
+        "raw_line": "<|ref|>③の他社外者影行場合、社外者入退場記録表記録残。<|/ref|><|det|>[[134, 363, 754, 377]]<|/det|>"
+      }
+    },
+    {
+      "id": 16,
+      "type": "5.補足",
+      "bbox": [
+        89,
+        399,
+        159,
+        413
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 16,
+        "raw_line": "<|ref|>5.補足<|/ref|><|det|>[[89, 399, 159, 413]]<|/det|>"
+      }
+    },
+    {
+      "id": 17,
+      "type": "（1）の规定、「企業機密管理方針」（00V002以下、「方針」。）企業機密管理规",
+      "bbox": [
+        99,
+        429,
+        880,
+        443
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 17,
+        "raw_line": "<|ref|>（1）の规定、「企業機密管理方針」（00V002以下、「方針」。）企業機密管理规<|/ref|><|det|>[[99, 429, 880, 443]]<|/det|>"
+      }
+    },
+    {
+      "id": 18,
+      "type": "定」（01V003以下「规定」。）の规定使用用語の定義、適用",
+      "bbox": [
+        139,
+        451,
+        879,
+        465
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 18,
+        "raw_line": "<|ref|>定」（01V003以下「规定」。）の规定使用用語の定義、適用<|/ref|><|det|>[[139, 451, 879, 465]]<|/det|>"
+      }
+    },
+    {
+      "id": 19,
+      "type": "用对象、方針同。",
+      "bbox": [
+        139,
+        473,
+        499,
+        487
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>用对象、方針同。<|/ref|><|det|>[[139, 473, 499, 487]]<|/det|>"
+      }
+    },
+    {
+      "id": 20,
+      "type": "（2）の规定改行場合、事前口一儿法務部入提出、规定改後口一儿法務部",
+      "bbox": [
+        99,
+        503,
+        884,
+        517
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 20,
+        "raw_line": "<|ref|>（2）の规定改行場合、事前口一儿法務部入提出、规定改後口一儿法務部<|/ref|><|det|>[[99, 503, 884, 517]]<|/det|>"
+      }
+    },
+    {
+      "id": 21,
+      "type": "届出。",
+      "bbox": [
+        139,
+        525,
+        354,
+        539
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 21,
+        "raw_line": "<|ref|>届出。<|/ref|><|det|>[[139, 525, 354, 539]]<|/det|>"
+      }
+    },
+    {
+      "id": 22,
+      "type": "（3）の要领施行日、2021年9月1日。",
+      "bbox": [
+        99,
+        555,
+        489,
+        569
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 22,
+        "raw_line": "<|ref|>（3）の要领施行日、2021年9月1日。<|/ref|><|det|>[[99, 555, 489, 569]]<|/det|>"
+      }
+    },
+    {
+      "id": 23,
+      "type": "関連规定：『企業機密管理方針』（00V002）",
+      "bbox": [
+        524,
+        584,
+        894,
+        599
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 23,
+        "raw_line": "<|ref|>関連规定：『企業機密管理方針』（00V002）<|/ref|><|det|>[[524, 584, 894, 599]]<|/det|>"
+      }
+    },
+    {
+      "id": 24,
+      "type": "『企業機密管理规定』（01V003）",
+      "bbox": [
+        620,
+        612,
+        894,
+        627
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 24,
+        "raw_line": "<|ref|>『企業機密管理规定』（01V003）<|/ref|><|det|>[[620, 612, 894, 627]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 24,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 4.0120849609375,
+    "prompt_used": "<image>\n<|grounding|>OCR this image."
+  }
+}

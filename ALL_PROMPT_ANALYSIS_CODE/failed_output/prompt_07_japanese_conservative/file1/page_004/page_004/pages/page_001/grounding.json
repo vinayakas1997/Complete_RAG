@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 1,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "image",
+      "bbox": [
+        100,
+        74,
+        885,
+        593
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[100, 74, 885, 593]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 1,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 1.0671367645263672,
+    "prompt_used": "<image>\n<|grounding|>明確な要素のみ抽出。"
+  }
+}

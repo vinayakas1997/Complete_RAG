@@ -1,0 +1,369 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 22,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        88,
+        53,
+        913,
+        132
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[88, 53, 913, 132]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "image_caption",
+      "bbox": [
+        425,
+        156,
+        573,
+        173
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>image_caption<|/ref|><|det|>[[425, 156, 573, 173]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "bbox": [
+        108,
+        204,
+        202,
+        218
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[108, 204, 202, 218]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        87,
+        226,
+        921,
+        283
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 226, 921, 283]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "bbox": [
+        108,
+        312,
+        202,
+        326
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[108, 312, 202, 326]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "bbox": [
+        87,
+        333,
+        769,
+        347
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 11,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 333, 769, 347]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        108,
+        375,
+        220,
+        389
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[108, 375, 220, 389]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "bbox": [
+        87,
+        397,
+        790,
+        410
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 15,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 397, 790, 410]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "bbox": [
+        108,
+        439,
+        238,
+        453
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 17,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[108, 439, 238, 453]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "bbox": [
+        87,
+        461,
+        920,
+        495
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 461, 920, 495]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "title",
+      "bbox": [
+        342,
+        542,
+        655,
+        559
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 21,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[342, 542, 655, 559]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "title",
+      "bbox": [
+        108,
+        588,
+        259,
+        602
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 23,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[108, 588, 259, 602]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "text",
+      "bbox": [
+        87,
+        610,
+        920,
+        666
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 25,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 610, 920, 666]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "bbox": [
+        87,
+        695,
+        655,
+        708
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 27,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[87, 695, 655, 708]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "text",
+      "bbox": [
+        135,
+        716,
+        665,
+        730
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 29,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 716, 665, 730]]<|/det|>"
+      }
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "bbox": [
+        135,
+        738,
+        450,
+        751
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 31,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 738, 450, 751]]<|/det|>"
+      }
+    },
+    {
+      "id": 17,
+      "type": "text",
+      "bbox": [
+        135,
+        760,
+        450,
+        773
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 33,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 760, 450, 773]]<|/det|>"
+      }
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "bbox": [
+        135,
+        782,
+        481,
+        795
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 35,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 782, 481, 795]]<|/det|>"
+      }
+    },
+    {
+      "id": 19,
+      "type": "text",
+      "bbox": [
+        135,
+        803,
+        370,
+        816
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 37,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 803, 370, 816]]<|/det|>"
+      }
+    },
+    {
+      "id": 20,
+      "type": "text",
+      "bbox": [
+        135,
+        825,
+        426,
+        838
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 39,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 825, 426, 838]]<|/det|>"
+      }
+    },
+    {
+      "id": 21,
+      "type": "text",
+      "bbox": [
+        135,
+        846,
+        518,
+        860
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 41,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 846, 518, 860]]<|/det|>"
+      }
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "bbox": [
+        117,
+        867,
+        918,
+        881
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 43,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[117, 867, 918, 881]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 22,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 2.4672012329101562,
+    "prompt_used": "<image>\n<|grounding|>明確な要素のみ抽出。"
+  }
+}

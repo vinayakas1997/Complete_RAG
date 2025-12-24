@@ -1,0 +1,321 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 19,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        90,
+        70,
+        898,
+        151
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[90, 70, 898, 151]]<|/det|>  "
+      }
+    },
+    {
+      "id": 2,
+      "type": "title",
+      "bbox": [
+        91,
+        165,
+        163,
+        181
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[91, 165, 163, 181]]<|/det|>  "
+      }
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "bbox": [
+        98,
+        195,
+        899,
+        258
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[98, 195, 899, 258]]<|/det|>  "
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        98,
+        270,
+        796,
+        289
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[98, 270, 796, 289]]<|/det|>  "
+      }
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "bbox": [
+        142,
+        300,
+        809,
+        317
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[142, 300, 809, 317]]<|/det|>  "
+      }
+    },
+    {
+      "id": 6,
+      "type": "title",
+      "bbox": [
+        91,
+        358,
+        335,
+        375
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 11,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[91, 358, 335, 375]]<|/det|>  "
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        125,
+        388,
+        899,
+        429
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[125, 388, 899, 429]]<|/det|>  "
+      }
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "bbox": [
+        150,
+        434,
+        744,
+        451
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 15,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[150, 434, 744, 451]]<|/det|>  "
+      }
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "bbox": [
+        125,
+        462,
+        895,
+        502
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 17,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[125, 462, 895, 502]]<|/det|>  "
+      }
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "bbox": [
+        125,
+        515,
+        895,
+        555
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[125, 515, 895, 555]]<|/det|>  "
+      }
+    },
+    {
+      "id": 11,
+      "type": "text",
+      "bbox": [
+        125,
+        567,
+        901,
+        608
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 21,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[125, 567, 901, 608]]<|/det|>  "
+      }
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "bbox": [
+        125,
+        620,
+        904,
+        660
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 23,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[125, 620, 904, 660]]<|/det|>  "
+      }
+    },
+    {
+      "id": 13,
+      "type": "text",
+      "bbox": [
+        84,
+        672,
+        891,
+        689
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 25,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[84, 672, 891, 689]]<|/det|>  "
+      }
+    },
+    {
+      "id": 14,
+      "type": "title",
+      "bbox": [
+        88,
+        730,
+        485,
+        747
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 27,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[88, 730, 485, 747]]<|/det|>  "
+      }
+    },
+    {
+      "id": 15,
+      "type": "text",
+      "bbox": [
+        125,
+        760,
+        481,
+        777
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 29,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[125, 760, 481, 777]]<|/det|>  "
+      }
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "bbox": [
+        125,
+        790,
+        904,
+        830
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 31,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[125, 790, 904, 830]]<|/det|>  "
+      }
+    },
+    {
+      "id": 17,
+      "type": "text",
+      "bbox": [
+        125,
+        843,
+        865,
+        860
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 33,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[125, 843, 865, 860]]<|/det|>  "
+      }
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "bbox": [
+        125,
+        872,
+        831,
+        889
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 35,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[125, 872, 831, 889]]<|/det|>  "
+      }
+    },
+    {
+      "id": 19,
+      "type": "text",
+      "bbox": [
+        125,
+        901,
+        519,
+        918
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 37,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[125, 901, 519, 918]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 19,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 40.366549253463745,
+    "prompt_used": "<image>\n<|grounding|>テキストと表を抽出。"
+  }
+}

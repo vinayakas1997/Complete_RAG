@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 2,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "image",
+      "bbox": [
+        98,
+        167,
+        890,
+        555
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[98, 167, 890, 555]]<|/det|>  "
+      }
+    },
+    {
+      "id": 2,
+      "type": "image",
+      "bbox": [
+        98,
+        586,
+        890,
+        947
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[98, 586, 890, 947]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 2,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 1.079085111618042,
+    "prompt_used": "<image>\n<|grounding|>Extract all text and tables. Include complete table structures."
+  }
+}

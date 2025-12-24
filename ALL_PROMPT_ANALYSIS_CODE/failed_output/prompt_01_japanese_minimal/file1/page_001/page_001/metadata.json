@@ -1,0 +1,9 @@
+{
+  "input_file": "output\\prompt_01_japanese_minimal\\file1\\page_001\\temp\\page_001.png",
+  "page_count": 1,
+  "total_processing_time": 40.64149832725525,
+  "successful_pages": 1,
+  "total_elements": 19,
+  "model_used": "ollama_extractor",
+  "timestamp": "2025-12-24 14:47:30"
+}

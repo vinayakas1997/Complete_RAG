@@ -1,0 +1,9 @@
+{
+  "input_file": "output\\prompt_07_japanese_conservative\\file2\\page_005\\temp\\page_005.png",
+  "page_count": 1,
+  "total_processing_time": 2.7796473503112793,
+  "successful_pages": 1,
+  "total_elements": 23,
+  "model_used": "ollama_extractor",
+  "timestamp": "2025-12-24 14:55:09"
+}

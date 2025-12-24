@@ -1,0 +1,209 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 12,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        88,
+        74,
+        900,
+        120
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[88, 74, 900, 120]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "bbox": [
+        128,
+        145,
+        686,
+        161
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[128, 145, 686, 161]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "title",
+      "bbox": [
+        91,
+        204,
+        486,
+        219
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[91, 204, 486, 219]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        128,
+        235,
+        890,
+        273
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[128, 235, 890, 273]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "bbox": [
+        158,
+        281,
+        739,
+        295
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[158, 281, 739, 295]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "bbox": [
+        128,
+        310,
+        820,
+        348
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 11,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[128, 310, 820, 348]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        128,
+        362,
+        756,
+        376
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[128, 362, 756, 376]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "title",
+      "bbox": [
+        87,
+        399,
+        159,
+        413
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 15,
+        "raw_line": "<|ref|>title<|/ref|><|det|>[[87, 399, 159, 413]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "bbox": [
+        94,
+        429,
+        884,
+        488
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 17,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[94, 429, 884, 488]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "bbox": [
+        94,
+        503,
+        885,
+        540
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[94, 503, 885, 540]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "text",
+      "bbox": [
+        95,
+        556,
+        488,
+        570
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 21,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[95, 556, 488, 570]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "bbox": [
+        522,
+        585,
+        895,
+        629
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 23,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[522, 585, 895, 629]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 12,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 1.9376583099365234,
+    "prompt_used": "<image>\n<|grounding|>表とテキストを抽出。"
+  }
+}

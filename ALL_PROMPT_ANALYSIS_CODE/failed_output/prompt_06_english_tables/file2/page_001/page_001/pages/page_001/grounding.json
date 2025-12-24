@@ -1,0 +1,369 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 22,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        88,
+        50,
+        917,
+        134
+      ],
+      "content": "<table><tr><td>承認</td><td>審査</td><td>起案</td><td>電気事業法<br/>下野部工場 保安規程</td><td>分類<br/>番号</td><td>21AC001(2)<br/>ページ 1/13</td></tr><tr><td></td><td></td><td></td><td>主管部署: 下野部工場</td><td>制定<br/>改訂</td><td>2019年 7月10日<br/>2023年 1月20日</td></tr></table>",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[88, 50, 917, 134]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "sub_title",
+      "bbox": [
+        420,
+        155,
+        580,
+        176
+      ],
+      "content": "## 第1章 総則",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[420, 155, 580, 176]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "bbox": [
+        108,
+        203,
+        206,
+        220
+      ],
+      "content": "[目 的]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[108, 203, 206, 220]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "bbox": [
+        88,
+        224,
+        920,
+        285
+      ],
+      "content": "第1条 株式会社シミック石川 下野部工場 (以下「当事業場」という。) における電気工作物の工事、維持及び運用に関する保安を確保するため、電気事業法第42条第1項の規定に基づき、この規程を定める。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 224, 920, 285]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "bbox": [
+        108,
+        312,
+        206,
+        329
+      ],
+      "content": "[効 力]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[108, 312, 206, 329]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "bbox": [
+        88,
+        333,
+        744,
+        351
+      ],
+      "content": "第2条 当事業場の経営者及び従業者は、電気関係法令及びこの規程を遵守する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 16,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 333, 744, 351]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "bbox": [
+        108,
+        376,
+        225,
+        393
+      ],
+      "content": "[細則の制定]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[108, 376, 225, 393]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "bbox": [
+        88,
+        397,
+        781,
+        415
+      ],
+      "content": "第3条 この規程を実施するため、必要を認められる場合には、別に細則を制定する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 22,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 397, 781, 415]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "bbox": [
+        108,
+        441,
+        243,
+        458
+      ],
+      "content": "[規程等の改正]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 25,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[108, 441, 243, 458]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "bbox": [
+        88,
+        462,
+        917,
+        501
+      ],
+      "content": "第4条 この規程又は前条に定めた細則の制定又は改正にあたっては、電気主任技術者の参画のもとに立案し、これを決定する。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 28,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 462, 917, 501]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "sub_title",
+      "bbox": [
+        340,
+        544,
+        658,
+        565
+      ],
+      "content": "## 第2章 保安業務の運営体制",
+      "confidence": null,
+      "metadata": {
+        "line_number": 31,
+        "raw_line": "<|ref|>sub_title<|/ref|><|det|>[[340, 544, 658, 565]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "text",
+      "bbox": [
+        108,
+        591,
+        263,
+        608
+      ],
+      "content": "[保安業務の監督]",
+      "confidence": null,
+      "metadata": {
+        "line_number": 34,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[108, 591, 263, 608]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "text",
+      "bbox": [
+        88,
+        612,
+        917,
+        672
+      ],
+      "content": "第5条 電気工作物の工事、維持及び運用に関する保安業務は、工場長 (以下「総括管理者」という。) が統括管理し、電気主任技術者を別図第1のように配置して、その監督にあたらせる。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 37,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 612, 917, 672]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "text",
+      "bbox": [
+        88,
+        698,
+        650,
+        716
+      ],
+      "content": "第6条 電気主任技術者の保安監督の職務は、次の事項について行う。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 40,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[88, 698, 650, 716]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "text",
+      "bbox": [
+        135,
+        720,
+        664,
+        737
+      ],
+      "content": "(イ) 電気工作物にかかる従業者に対する保安教育に関すること。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 43,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 720, 664, 737]]<|/det|>"
+      }
+    },
+    {
+      "id": 16,
+      "type": "text",
+      "bbox": [
+        135,
+        741,
+        448,
+        759
+      ],
+      "content": "(ロ) 電気工作物の工事に関すること。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 46,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 741, 448, 759]]<|/det|>"
+      }
+    },
+    {
+      "id": 17,
+      "type": "text",
+      "bbox": [
+        135,
+        763,
+        448,
+        781
+      ],
+      "content": "(ハ) 電気工作物の保守に関すること。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 49,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 763, 448, 781]]<|/det|>"
+      }
+    },
+    {
+      "id": 18,
+      "type": "text",
+      "bbox": [
+        135,
+        785,
+        482,
+        803
+      ],
+      "content": "(ニ) 電気工作物の運転操作に関すること。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 52,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 785, 482, 803]]<|/det|>"
+      }
+    },
+    {
+      "id": 19,
+      "type": "text",
+      "bbox": [
+        135,
+        807,
+        370,
+        824
+      ],
+      "content": "(ホ) 災害対策に関すること。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 55,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 807, 370, 824]]<|/det|>"
+      }
+    },
+    {
+      "id": 20,
+      "type": "text",
+      "bbox": [
+        135,
+        828,
+        427,
+        846
+      ],
+      "content": "(ヘ) 保安業務の記録に関すること。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 58,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 828, 427, 846]]<|/det|>"
+      }
+    },
+    {
+      "id": 21,
+      "type": "text",
+      "bbox": [
+        135,
+        850,
+        515,
+        867
+      ],
+      "content": "(ト) 保安用機材及び書類の整備に関すること。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 61,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[135, 850, 515, 867]]<|/det|>"
+      }
+    },
+    {
+      "id": 22,
+      "type": "text",
+      "bbox": [
+        123,
+        871,
+        915,
+        889
+      ],
+      "content": "2 電気主任技術者は、電気工作物の工事、維持及び運用に関する保安の監督の職務を誠実に行う。",
+      "confidence": null,
+      "metadata": {
+        "line_number": 64,
+        "raw_line": "<|ref|>text<|/ref|><|det|>[[123, 871, 915, 889]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 22,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 4.719020843505859,
+    "prompt_used": "<image>\n<|grounding|>Extract tables and text."
+  }
+}

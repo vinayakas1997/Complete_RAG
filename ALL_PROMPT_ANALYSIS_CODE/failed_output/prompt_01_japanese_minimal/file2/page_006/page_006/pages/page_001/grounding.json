@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 3,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        89,
+        52,
+        913,
+        93
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[89, 52, 913, 93]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "table_caption",
+      "bbox": [
+        83,
+        120,
+        522,
+        138
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>table_caption<|/ref|><|det|>[[83, 120, 522, 138]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "table",
+      "bbox": [
+        101,
+        142,
+        886,
+        867
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[101, 142, 886, 867]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 3,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 9.122190713882446,
+    "prompt_used": "<image>\n<|grounding|>テキストと表を抽出。"
+  }
+}

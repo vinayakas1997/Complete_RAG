@@ -1,0 +1,81 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 4,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "table",
+      "bbox": [
+        93,
+        73,
+        902,
+        120
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[93, 73, 902, 120]]<|/det|>  "
+      }
+    },
+    {
+      "id": 2,
+      "type": "image",
+      "bbox": [
+        100,
+        170,
+        888,
+        553
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>image<|/ref|><|det|>[[100, 170, 888, 553]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "image_caption",
+      "bbox": [
+        321,
+        562,
+        664,
+        579
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>image_caption<|/ref|><|det|>[[321, 562, 664, 579]]<|/det|>  "
+      }
+    },
+    {
+      "id": 4,
+      "type": "table",
+      "bbox": [
+        100,
+        587,
+        888,
+        945
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 6,
+        "raw_line": "<|ref|>table<|/ref|><|det|>[[100, 587, 888, 945]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 4,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 1.313772201538086,
+    "prompt_used": "<image>\n<|grounding|>テキストと表を抽出。不明確な部分は画像として扱う。"
+  }
+}

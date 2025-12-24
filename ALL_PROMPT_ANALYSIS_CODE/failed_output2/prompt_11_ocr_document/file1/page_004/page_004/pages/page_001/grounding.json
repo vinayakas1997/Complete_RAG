@@ -1,0 +1,545 @@
+{
+  "success": true,
+  "parser_type": "grounding_parser",
+  "element_count": 33,
+  "error_message": null,
+  "elements": [
+    {
+      "id": 1,
+      "type": "下野部工場機密区域管理要领",
+      "bbox": [
+        99,
+        87,
+        349,
+        102
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 1,
+        "raw_line": "<|ref|>下野部工場機密区域管理要领<|/ref|><|det|>[[99, 87, 349, 102]]<|/det|>"
+      }
+    },
+    {
+      "id": 2,
+      "type": "付図1",
+      "bbox": [
+        482,
+        89,
+        536,
+        108
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 2,
+        "raw_line": "<|ref|>付図1<|/ref|><|det|>[[482, 89, 536, 108]]<|/det|>"
+      }
+    },
+    {
+      "id": 3,
+      "type": "分類",
+      "bbox": [
+        629,
+        78,
+        679,
+        96
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 3,
+        "raw_line": "<|ref|>分類<|/ref|><|det|>[[629, 78, 679, 96]]<|/det|>"
+      }
+    },
+    {
+      "id": 4,
+      "type": "番号",
+      "bbox": [
+        629,
+        96,
+        679,
+        114
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 4,
+        "raw_line": "<|ref|>番号<|/ref|><|det|>[[629, 96, 679, 114]]<|/det|>"
+      }
+    },
+    {
+      "id": 5,
+      "type": "02AC001(1)",
+      "bbox": [
+        719,
+        78,
+        864,
+        92
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 5,
+        "raw_line": "<|ref|>02AC001(1)<|/ref|><|det|>[[719, 78, 864, 92]]<|/det|>"
+      }
+    },
+    {
+      "id": 6,
+      "type": "4/4",
+      "bbox": [
+        759,
+        99,
+        824,
+        113
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 6,
+        "raw_line": "<|ref|>4/4<|/ref|><|det|>[[759, 99, 824, 113]]<|/det|>"
+      }
+    },
+    {
+      "id": 7,
+      "type": "社外者機密区域内影時の口一",
+      "bbox": [
+        327,
+        148,
+        664,
+        166
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 7,
+        "raw_line": "<|ref|>社外者機密区域内影時の口一<|/ref|><|det|>[[327, 148, 664, 166]]<|/det|>"
+      }
+    },
+    {
+      "id": 8,
+      "type": "社外者",
+      "bbox": [
+        189,
+        185,
+        244,
+        204
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 8,
+        "raw_line": "<|ref|>社外者<|/ref|><|det|>[[189, 185, 244, 204]]<|/det|>"
+      }
+    },
+    {
+      "id": 9,
+      "type": "受入担当者",
+      "bbox": [
+        365,
+        186,
+        449,
+        204
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 9,
+        "raw_line": "<|ref|>受入担当者<|/ref|><|det|>[[365, 186, 449, 204]]<|/det|>"
+      }
+    },
+    {
+      "id": 10,
+      "type": "部門の役者（GL、班長以上）",
+      "bbox": [
+        524,
+        194,
+        689,
+        209
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 10,
+        "raw_line": "<|ref|>部門の役者（GL、班長以上）<|/ref|><|det|>[[524, 194, 689, 209]]<|/det|>"
+      }
+    },
+    {
+      "id": 11,
+      "type": "受入担当者所属寸",
+      "bbox": [
+        549,
+        183,
+        669,
+        196
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 11,
+        "raw_line": "<|ref|>受入担当者所属寸<|/ref|><|det|>[[549, 183, 669, 196]]<|/det|>"
+      }
+    },
+    {
+      "id": 12,
+      "type": "帐票·证",
+      "bbox": [
+        754,
+        188,
+        831,
+        206
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 12,
+        "raw_line": "<|ref|>帐票·证<|/ref|><|det|>[[754, 188, 831, 206]]<|/det|>"
+      }
+    },
+    {
+      "id": 13,
+      "type": "影の許可申請",
+      "bbox": [
+        364,
+        223,
+        464,
+        237
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 13,
+        "raw_line": "<|ref|>影の許可申請<|/ref|><|det|>[[364, 223, 464, 237]]<|/det|>"
+      }
+    },
+    {
+      "id": 14,
+      "type": "（口頭·一儿可）",
+      "bbox": [
+        364,
+        236,
+        464,
+        250
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 14,
+        "raw_line": "<|ref|>（口頭·一儿可）<|/ref|><|det|>[[364, 236, 464, 250]]<|/det|>"
+      }
+    },
+    {
+      "id": 15,
+      "type": "影許可",
+      "bbox": [
+        581,
+        280,
+        636,
+        295
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 15,
+        "raw_line": "<|ref|>影許可<|/ref|><|det|>[[581, 280, 636, 295]]<|/det|>"
+      }
+    },
+    {
+      "id": 16,
+      "type": "工事業者→",
+      "bbox": [
+        764,
+        301,
+        829,
+        312
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 16,
+        "raw_line": "<|ref|>工事業者→<|/ref|><|det|>[[764, 301, 829, 312]]<|/det|>"
+      }
+    },
+    {
+      "id": 17,
+      "type": "安全確作業",
+      "bbox": [
+        759,
+        312,
+        839,
+        323
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 17,
+        "raw_line": "<|ref|>安全確作業<|/ref|><|det|>[[759, 312, 839, 323]]<|/det|>"
+      }
+    },
+    {
+      "id": 18,
+      "type": "（作業終了時）",
+      "bbox": [
+        759,
+        323,
+        835,
+        335
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 18,
+        "raw_line": "<|ref|>（作業終了時）<|/ref|><|det|>[[759, 323, 835, 335]]<|/det|>"
+      }
+    },
+    {
+      "id": 19,
+      "type": "影許可の伝達",
+      "bbox": [
+        364,
+        339,
+        464,
+        354
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 19,
+        "raw_line": "<|ref|>影許可の伝達<|/ref|><|det|>[[364, 339, 464, 354]]<|/det|>"
+      }
+    },
+    {
+      "id": 20,
+      "type": "实施報告書",
+      "bbox": [
+        764,
+        334,
+        829,
+        345
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 20,
+        "raw_line": "<|ref|>实施報告書<|/ref|><|det|>[[764, 334, 829, 345]]<|/det|>"
+      }
+    },
+    {
+      "id": 21,
+      "type": "01C508-3",
+      "bbox": [
+        764,
+        345,
+        829,
+        357
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 21,
+        "raw_line": "<|ref|>01C508-3<|/ref|><|det|>[[764, 345, 829, 357]]<|/det|>"
+      }
+    },
+    {
+      "id": 22,
+      "type": "下野部工場",
+      "bbox": [
+        754,
+        357,
+        839,
+        369
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 22,
+        "raw_line": "<|ref|>下野部工場<|/ref|><|det|>[[754, 357, 839, 369]]<|/det|>"
+      }
+    },
+    {
+      "id": 23,
+      "type": "保管",
+      "bbox": [
+        779,
+        369,
+        809,
+        382
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 23,
+        "raw_line": "<|ref|>保管<|/ref|><|det|>[[779, 369, 809, 382]]<|/det|>"
+      }
+    },
+    {
+      "id": 24,
+      "type": "影实施",
+      "bbox": [
+        184,
+        395,
+        239,
+        410
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 24,
+        "raw_line": "<|ref|>影实施<|/ref|><|det|>[[184, 395, 239, 410]]<|/det|>"
+      }
+    },
+    {
+      "id": 25,
+      "type": "对象物等の記绿",
+      "bbox": [
+        164,
+        441,
+        264,
+        456
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 25,
+        "raw_line": "<|ref|>对象物等の記绿<|/ref|><|det|>[[164, 441, 264, 456]]<|/det|>"
+      }
+    },
+    {
+      "id": 26,
+      "type": "記绿の提出",
+      "bbox": [
+        169,
+        454,
+        254,
+        468
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 26,
+        "raw_line": "<|ref|>記绿の提出<|/ref|><|det|>[[169, 454, 254, 468]]<|/det|>"
+      }
+    },
+    {
+      "id": 27,
+      "type": "記绿の提出",
+      "bbox": [
+        179,
+        499,
+        249,
+        513
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 27,
+        "raw_line": "<|ref|>記绿の提出<|/ref|><|det|>[[179, 499, 249, 513]]<|/det|>"
+      }
+    },
+    {
+      "id": 28,
+      "type": "社外者入退場",
+      "bbox": [
+        754,
+        494,
+        839,
+        509
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 28,
+        "raw_line": "<|ref|>社外者入退場<|/ref|><|det|>[[754, 494, 839, 509]]<|/det|>"
+      }
+    },
+    {
+      "id": 29,
+      "type": "記绿表",
+      "bbox": [
+        769,
+        507,
+        816,
+        521
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 29,
+        "raw_line": "<|ref|>記绿表<|/ref|><|det|>[[769, 507, 816, 521]]<|/det|>"
+      }
+    },
+    {
+      "id": 30,
+      "type": "01C508-3",
+      "bbox": [
+        764,
+        519,
+        829,
+        531
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 30,
+        "raw_line": "<|ref|>01C508-3<|/ref|><|det|>[[764, 519, 829, 531]]<|/det|>"
+      }
+    },
+    {
+      "id": 31,
+      "type": "（下野部工場",
+      "bbox": [
+        754,
+        531,
+        839,
+        542
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 31,
+        "raw_line": "<|ref|>（下野部工場<|/ref|><|det|>[[754, 531, 839, 542]]<|/det|>"
+      }
+    },
+    {
+      "id": 32,
+      "type": "保管）",
+      "bbox": [
+        779,
+        542,
+        816,
+        555
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 32,
+        "raw_line": "<|ref|>保管）<|/ref|><|det|>[[779, 542, 816, 555]]<|/det|>"
+      }
+    },
+    {
+      "id": 33,
+      "type": "記绿確",
+      "bbox": [
+        384,
+        557,
+        444,
+        572
+      ],
+      "content": "",
+      "confidence": null,
+      "metadata": {
+        "line_number": 33,
+        "raw_line": "<|ref|>記绿確<|/ref|><|det|>[[384, 557, 444, 572]]<|/det|>"
+      }
+    }
+  ],
+  "metadata": {
+    "element_count": 33,
+    "has_grounding": true
+  },
+  "extraction_metadata": {
+    "model": "deepseek-ocr:3b",
+    "processing_time": 3.777549982070923,
+    "prompt_used": "<image>\n<|grounding|>OCR this image."
+  }
+}
